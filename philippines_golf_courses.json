@@ -1,0 +1,2894 @@
+[
+    {
+        "name": "Aguinaldo Golf & Country Club",
+        "status": "Private",
+        "slope_rating": 130,
+        "yardage": 6800,
+        "scorecard": {
+            "total_par": 72,
+            "holes": [
+                {"hole": 1, "par": 4, "yards": 400},
+                {"hole": 2, "par": 5, "yards": 520},
+                {"hole": 3, "par": 3, "yards": 180},
+                {"hole": 4, "par": 4, "yards": 410},
+                {"hole": 5, "par": 4, "yards": 390},
+                {"hole": 6, "par": 5, "yards": 530},
+                {"hole": 7, "par": 3, "yards": 170},
+                {"hole": 8, "par": 4, "yards": 420},
+                {"hole": 9, "par": 4, "yards": 380},
+                {"hole": 10, "par": 4, "yards": 400},
+                {"hole": 11, "par": 5, "yards": 510},
+                {"hole": 12, "par": 3, "yards": 160},
+                {"hole": 13, "par": 4, "yards": 430},
+                {"hole": 14, "par": 4, "yards": 390},
+                {"hole": 15, "par": 5, "yards": 540},
+                {"hole": 16, "par": 3, "yards": 190},
+                {"hole": 17, "par": 4, "yards": 410},
+                {"hole": 18, "par": 4, "yards": 420}
+            ]
+        }
+    },
+    {
+        "name": "Alabang Country Club",
+        "status": "Private",
+        "slope_rating": 135,
+        "yardage": 6700,
+        "scorecard": {
+            "total_par": 72,
+            "holes": [
+                {"hole": 1, "par": 4, "yards": 390},
+                {"hole": 2, "par": 5, "yards": 500},
+                {"hole": 3, "par": 3, "yards": 170},
+                {"hole": 4, "par": 4, "yards": 420},
+                {"hole": 5, "par": 4, "yards": 380},
+                {"hole": 6, "par": 5, "yards": 510},
+                {"hole": 7, "par": 3, "yards": 160},
+                {"hole": 8, "par": 4, "yards": 430},
+                {"hole": 9, "par": 4, "yards": 400},
+                {"hole": 10, "par": 4, "yards": 410},
+                {"hole": 11, "par": 5, "yards": 520},
+                {"hole": 12, "par": 3, "yards": 180},
+                {"hole": 13, "par": 4, "yards": 390},
+                {"hole": 14, "par": 4, "yards": 370},
+                {"hole": 15, "par": 5, "yards": 530},
+                {"hole": 16, "par": 3, "yards": 190},
+                {"hole": 17, "par": 4, "yards": 420},
+                {"hole": 18, "par": 4, "yards": 410}
+            ]
+        }
+    },
+    {
+        "name": "Alta Vista Golf & Country Club",
+        "status": "Private",
+        "slope_rating": 132,
+        "yardage": 6600,
+        "scorecard": {
+            "total_par": 72,
+            "holes": [
+                {"hole": 1, "par": 4, "yards": 380},
+                {"hole": 2, "par": 5, "yards": 510},
+                {"hole": 3, "par": 3, "yards": 160},
+                {"hole": 4, "par": 4, "yards": 400},
+                {"hole": 5, "par": 4, "yards": 370},
+                {"hole": 6, "par": 5, "yards": 520},
+                {"hole": 7, "par": 3, "yards": 170},
+                {"hole": 8, "par": 4, "yards": 410},
+                {"hole": 9, "par": 4, "yards": 390},
+                {"hole": 10, "par": 4, "yards": 400},
+                {"hole": 11, "par": 5, "yards": 500},
+                {"hole": 12, "par": 3, "yards": 150},
+                {"hole": 13, "par": 4, "yards": 420},
+                {"hole": 14, "par": 4, "yards": 380},
+                {"hole": 15, "par": 5, "yards": 530},
+                {"hole": 16, "par": 3, "yards": 180},
+                {"hole": 17, "par": 4, "yards": 410},
+                {"hole": 18, "par": 4, "yards": 401}
+            ]
+        }
+    },
+    {
+        "name": "Baguio Country Club",
+        "status": "Private",
+        "slope_rating": 128,
+        "yardage": 6500,
+        "scorecard": {
+            "total_par": 71,
+            "holes": [
+                {"hole": 1, "par": 4, "yards": 370},
+                {"hole": 2, "par": 5, "yards": 500},
+                {"hole": 3, "par": 3, "yards": 150},
+                {"hole": 4, "par": 4, "yards": 390},
+                {"hole": 5, "par": 4, "yards": 360},
+                {"hole": 6, "par": 5, "yards": 510},
+                {"hole": 7, "par": 3, "yards": 160},
+                {"hole": 8, "par": 4, "yards": 400},
+                {"hole": 9, "par": 4, "yards": 380},
+                {"hole": 10, "par": 4, "yards": 390},
+                {"hole": 11, "par": 5, "yards": 520},
+                {"hole": 12, "par": 3, "yards": 170},
+                {"hole": 13, "par": 4, "yards": 410},
+                {"hole": 14, "par": 4, "yards": 370},
+                {"hole": 15, "par": 5, "yards": 490},
+                {"hole": 16, "par": 3, "yards": 140},
+                {"hole": 17, "par": 4, "yards": 420},
+                {"hole": 18, "par": 4, "yards": 424}
+            ]
+        }
+    },
+    {
+        "name": "Beverly Place Golf Club",
+        "status": "Private",
+        "slope_rating": 134,
+        "yardage": 6800,
+        "scorecard": {
+            "total_par": 72,
+            "holes": [
+                {"hole": 1, "par": 4, "yards": 400},
+                {"hole": 2, "par": 5, "yards": 530},
+                {"hole": 3, "par": 3, "yards": 180},
+                {"hole": 4, "par": 4, "yards": 410},
+                {"hole": 5, "par": 4, "yards": 390},
+                {"hole": 6, "par": 5, "yards": 540},
+                {"hole": 7, "par": 3, "yards": 170},
+                {"hole": 8, "par": 4, "yards": 420},
+                {"hole": 9, "par": 4, "yards": 380},
+                {"hole": 10, "par": 4, "yards": 410},
+                {"hole": 11, "par": 5, "yards": 520},
+                {"hole": 12, "par": 3, "yards": 160},
+                {"hole": 13, "par": 4, "yards": 430},
+                {"hole": 14, "par": 4, "yards": 400},
+                {"hole": 15, "par": 5, "yards": 510},
+                {"hole": 16, "par": 3, "yards": 190},
+                {"hole": 17, "par": 4, "yards": 420},
+                {"hole": 18, "par": 4, "yards": 439}
+            ]
+        }
+    },
+    {
+        "name": "Calatagan Golf Club",
+        "status": "Private",
+        "slope_rating": 136,
+        "yardage": 6900,
+        "scorecard": {
+            "total_par": 72,
+            "holes": [
+                {"hole": 1, "par": 4, "yards": 410},
+                {"hole": 2, "par": 5, "yards": 530},
+                {"hole": 3, "par": 3, "yards": 180},
+                {"hole": 4, "par": 4, "yards": 420},
+                {"hole": 5, "par": 4, "yards": 390},
+                {"hole": 6, "par": 5, "yards": 540},
+                {"hole": 7, "par": 3, "yards": 170},
+                {"hole": 8, "par": 4, "yards": 430},
+                {"hole": 9, "par": 4, "yards": 400},
+                {"hole": 10, "par": 4, "yards": 420},
+                {"hole": 11, "par": 5, "yards": 520},
+                {"hole": 12, "par": 3, "yards": 160},
+                {"hole": 13, "par": 4, "yards": 440},
+                {"hole": 14, "par": 4, "yards": 380},
+                {"hole": 15, "par": 5, "yards": 510},
+                {"hole": 16, "par": 3, "yards": 190},
+                {"hole": 17, "par": 4, "yards": 410},
+                {"hole": 18, "par": 4, "yards": 409}
+            ]
+        }
+    },
+    {
+        "name": "Camp John Hay Golf Club",
+        "status": "Private",
+        "slope_rating": 130,
+        "yardage": 6400,
+        "scorecard": {
+            "total_par": 71,
+            "holes": [
+                {"hole": 1, "par": 4, "yards": 380},
+                {"hole": 2, "par": 5, "yards": 500},
+                {"hole": 3, "par": 3, "yards": 160},
+                {"hole": 4, "par": 4, "yards": 390},
+                {"hole": 5, "par": 4, "yards": 370},
+                {"hole": 6, "par": 5, "yards": 510},
+                {"hole": 7, "par": 3, "yards": 150},
+                {"hole": 8, "par": 4, "yards": 400},
+                {"hole": 9, "par": 4, "yards": 380},
+                {"hole": 10, "par": 4, "yards": 390},
+                {"hole": 11, "par": 5, "yards": 500},
+                {"hole": 12, "par": 3, "yards": 170},
+                {"hole": 13, "par": 4, "yards": 410},
+                {"hole": 14, "par": 4, "yards": 360},
+                {"hole": 15, "par": 5, "yards": 490},
+                {"hole": 16, "par": 3, "yards": 140},
+                {"hole": 17, "par": 4, "yards": 400},
+                {"hole": 18, "par": 4, "yards": 396}
+            ]
+        }
+    },
+    {
+        "name": "Canlubang Golf & Country Club",
+        "status": "Private",
+        "slope_rating": 138,
+        "yardage": 7000,
+        "scorecard": {
+            "total_par": 72,
+            "holes": [
+                {"hole": 1, "par": 4, "yards": 420},
+                {"hole": 2, "par": 5, "yards": 540},
+                {"hole": 3, "par": 3, "yards": 190},
+                {"hole": 4, "par": 4, "yards": 430},
+                {"hole": 5, "par": 4, "yards": 400},
+                {"hole": 6, "par": 5, "yards": 550},
+                {"hole": 7, "par": 3, "yards": 170},
+                {"hole": 8, "par": 4, "yards": 440},
+                {"hole": 9, "par": 4, "yards": 410},
+                {"hole": 10, "par": 4, "yards": 430},
+                {"hole": 11, "par": 5, "yards": 530},
+                {"hole": 12, "par": 3, "yards": 180},
+                {"hole": 13, "par": 4, "yards": 450},
+                {"hole": 14, "par": 4, "yards": 390},
+                {"hole": 15, "par": 5, "yards": 520},
+                {"hole": 16, "par": 3, "yards": 200},
+                {"hole": 17, "par": 4, "yards": 420},
+                {"hole": 18, "par": 4, "yards": 427}
+            ]
+        }
+    },
+    {
+        "name": "Cebu Country Club",
+        "status": "Private",
+        "slope_rating": 133,
+        "yardage": 6700,
+        "scorecard": {
+            "total_par": 72,
+            "holes": [
+                {"hole": 1, "par": 4, "yards": 400},
+                {"hole": 2, "par": 5, "yards": 520},
+                {"hole": 3, "par": 3, "yards": 170},
+                {"hole": 4, "par": 4, "yards": 410},
+                {"hole": 5, "par": 4, "yards": 390},
+                {"hole": 6, "par": 5, "yards": 530},
+                {"hole": 7, "par": 3, "yards": 160},
+                {"hole": 8, "par": 4, "yards": 420},
+                {"hole": 9, "par": 4, "yards": 380},
+                {"hole": 10, "par": 4, "yards": 410},
+                {"hole": 11, "par": 5, "yards": 510},
+                {"hole": 12, "par": 3, "yards": 180},
+                {"hole": 13, "par": 4, "yards": 430},
+                {"hole": 14, "par": 4, "yards": 370},
+                {"hole": 15, "par": 5, "yards": 500},
+                {"hole": 16, "par": 3, "yards": 190},
+                {"hole": 17, "par": 4, "yards": 410},
+                {"hole": 18, "par": 4, "yards": 411}
+            ]
+        }
+    },
+    {
+        "name": "Club Intramuros",
+        "status": "Public",
+        "slope_rating": 120,
+        "yardage": 5800,
+        "scorecard": {
+            "total_par": 66,
+            "holes": [
+                {"hole": 1, "par": 4, "yards": 350},
+                {"hole": 2, "par": 4, "yards": 360},
+                {"hole": 3, "par": 3, "yards": 150},
+                {"hole": 4, "par": 4, "yards": 370},
+                {"hole": 5, "par": 4, "yards": 340},
+                {"hole": 6, "par": 4, "yards": 380},
+                {"hole": 7, "par": 3, "yards": 140},
+                {"hole": 8, "par": 4, "yards": 390},
+                {"hole": 9, "par": 4, "yards": 360},
+                {"hole": 10, "par": 4, "yards": 370},
+                {"hole": 11, "par": 4, "yards": 350},
+                {"hole": 12, "par": 3, "yards": 160},
+                {"hole": 13, "par": 4, "yards": 380},
+                {"hole": 14, "par": 4, "yards": 340},
+                {"hole": 15, "par": 4, "yards": 360},
+                {"hole": 16, "par": 3, "yards": 170},
+                {"hole": 17, "par": 4, "yards": 390},
+                {"hole": 18, "par": 4, "yards": 375}
+            ]
+        }
+    },
+    {
+        "name": "Davao City Golf Club",
+        "status": "Private",
+        "slope_rating": 129,
+        "yardage": 6600,
+        "scorecard": {
+            "total_par": 72,
+            "holes": [
+                {"hole": 1, "par": 4, "yards": 390},
+                {"hole": 2, "par": 5, "yards": 510},
+                {"hole": 3, "par": 3, "yards": 170},
+                {"hole": 4, "par": 4, "yards": 400},
+                {"hole": 5, "par": 4, "yards": 380},
+                {"hole": 6, "par": 5, "yards": 520},
+                {"hole": 7, "par": 3, "yards": 160},
+                {"hole": 8, "par": 4, "yards": 410},
+                {"hole": 9, "par": 4, "yards": 390},
+                {"hole": 10, "par": 4, "yards": 400},
+                {"hole": 11, "par": 5, "yards": 500},
+                {"hole": 12, "par": 3, "yards": 150},
+                {"hole": 13, "par": 4, "yards": 420},
+                {"hole": 14, "par": 4, "yards": 370},
+                {"hole": 15, "par": 5, "yards": 530},
+                {"hole": 16, "par": 3, "yards": 180},
+                {"hole": 17, "par": 4, "yards": 410},
+                {"hole": 18, "par": 4, "yards": 402}
+            ]
+        }
+    },
+    {
+        "name": "Del Monte Golf Club",
+        "status": "Private",
+        "slope_rating": 131,
+        "yardage": 6500,
+        "scorecard": {
+            "total_par": 72,
+            "holes": [
+                {"hole": 1, "par": 4, "yards": 380},
+                {"hole": 2, "par": 5, "yards": 500},
+                {"hole": 3, "par": 3, "yards": 160},
+                {"hole": 4, "par": 4, "yards": 400},
+                {"hole": 5, "par": 4, "yards": 370},
+                {"hole": 6, "par": 5, "yards": 510},
+                {"hole": 7, "par": 3, "yards": 150},
+                {"hole": 8, "par": 4, "yards": 410},
+                {"hole": 9, "par": 4, "yards": 390},
+                {"hole": 10, "par": 4, "yards": 400},
+                {"hole": 11, "par": 5, "yards": 520},
+                {"hole": 12, "par": 3, "yards": 170},
+                {"hole": 13, "par": 4, "yards": 420},
+                {"hole": 14, "par": 4, "yards": 360},
+                {"hole": 15, "par": 5, "yards": 490},
+                {"hole": 16, "par": 3, "yards": 180},
+                {"hole": 17, "par": 4, "yards": 400},
+                {"hole": 18, "par": 4, "yards": 395}
+            ]
+        }
+    },
+    {
+        "name": "Eagle Ridge Golf & Country Club (Faldo)",
+        "status": "Private",
+        "slope_rating": 137,
+        "yardage": 7100,
+        "scorecard": {
+            "total_par": 72,
+            "holes": [
+                {"hole": 1, "par": 4, "yards": 430},
+                {"hole": 2, "par": 5, "yards": 550},
+                {"hole": 3, "par": 3, "yards": 190},
+                {"hole": 4, "par": 4, "yards": 440},
+                {"hole": 5, "par": 4, "yards": 410},
+                {"hole": 6, "par": 5, "yards": 560},
+                {"hole": 7, "par": 3, "yards": 170},
+                {"hole": 8, "par": 4, "yards": 450},
+                {"hole": 9, "par": 4, "yards": 420},
+                {"hole": 10, "par": 4, "yards": 430},
+                {"hole": 11, "par": 5, "yards": 540},
+                {"hole": 12, "par": 3, "yards": 180},
+                {"hole": 13, "par": 4, "yards": 460},
+                {"hole": 14, "par": 4, "yards": 390},
+                {"hole": 15, "par": 5, "yards": 520},
+                {"hole": 16, "par": 3, "yards": 200},
+                {"hole": 17, "par": 4, "yards": 430},
+                {"hole": 18, "par": 4, "yards": 430}
+            ]
+        }
+    },
+    {
+        "name": "Eagle Ridge Golf & Country Club (Norman)",
+        "status": "Private",
+        "slope_rating": 135,
+        "yardage": 7123,
+        "scorecard": {
+            "total_par": 72,
+            "holes": [
+                {"hole": 1, "par": 4, "yards": 420},
+                {"hole": 2, "par": 5, "yards": 550},
+                {"hole": 3, "par": 3, "yards": 180},
+                {"hole": 4, "par": 4, "yards": 430},
+                {"hole": 5, "par": 4, "yards": 400},
+                {"hole": 6, "par": 5, "yards": 560},
+                {"hole": 7, "par": 3, "yards": 170},
+                {"hole": 8, "par": 4, "yards": 440},
+                {"hole": 9, "par": 4, "yards": 410},
+                {"hole": 10, "par": 4, "yards": 440},
+                {"hole": 11, "par": 5, "yards": 540},
+                {"hole": 12, "par": 3, "yards": 190},
+                {"hole": 13, "par": 4, "yards": 450},
+                {"hole": 14, "par": 4, "yards": 390},
+                {"hole": 15, "par": 5, "yards": 530},
+                {"hole": 16, "par": 3, "yards": 200},
+                {"hole": 17, "par": 4, "yards": 420},
+                {"hole": 18, "par": 4, "yards": 420}
+            ]
+        }
+    },
+    {
+        "name": "Eagle Ridge Golf & Country Club (Dye)",
+        "status": "Private",
+        "slope_rating": 138,
+        "yardage": 7323,
+        "scorecard": {
+            "total_par": 72,
+            "holes": [
+                {"hole": 1, "par": 4, "yards": 440},
+                {"hole": 2, "par": 5, "yards": 570},
+                {"hole": 3, "par": 3, "yards": 200},
+                {"hole": 4, "par": 4, "yards": 450},
+                {"hole": 5, "par": 4, "yards": 420},
+                {"hole": 6, "par": 5, "yards": 580},
+                {"hole": 7, "par": 3, "yards": 180},
+                {"hole": 8, "par": 4, "yards": 460},
+                {"hole": 9, "par": 4, "yards": 430},
+                {"hole": 10, "par": 4, "yards": 450},
+                {"hole": 11, "par": 5, "yards": 560},
+                {"hole": 12, "par": 3, "yards": 190},
+                {"hole": 13, "par": 4, "yards": 470},
+                {"hole": 14, "par": 4, "yards": 400},
+                {"hole": 15, "par": 5, "yards": 540},
+                {"hole": 16, "par": 3, "yards": 210},
+                {"hole": 17, "par": 4, "yards": 440},
+                {"hole": 18, "par": 4, "yards": 415}
+            ]
+        }
+    },
+        {
+            "name": "Eagle Ridge Golf & Country Club (Aoki)",
+            "status": "Private",
+            "slope_rating": 134,
+            "yardage": 6990,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 410},
+                    {"hole": 2, "par": 5, "yards": 540},
+                    {"hole": 3, "par": 3, "yards": 180},
+                    {"hole": 4, "par": 4, "yards": 420},
+                    {"hole": 5, "par": 4, "yards": 390},
+                    {"hole": 6, "par": 5, "yards": 550},
+                    {"hole": 7, "par": 3, "yards": 170},
+                    {"hole": 8, "par": 4, "yards": 430},
+                    {"hole": 9, "par": 4, "yards": 400},
+                    {"hole": 10, "par": 4, "yards": 420},
+                    {"hole": 11, "par": 5, "yards": 530},
+                    {"hole": 12, "par": 3, "yards": 190},
+                    {"hole": 13, "par": 4, "yards": 440},
+                    {"hole": 14, "par": 4, "yards": 380},
+                    {"hole": 15, "par": 5, "yards": 510},
+                    {"hole": 16, "par": 3, "yards": 200},
+                    {"hole": 17, "par": 4, "yards": 410},
+                    {"hole": 18, "par": 4, "yards": 419}
+                ]
+            }
+        },
+        {
+            "name": "Eastridge Golf Club",
+            "status": "Private",
+            "slope_rating": 134,
+            "yardage": 6800,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 400},
+                    {"hole": 2, "par": 5, "yards": 530},
+                    {"hole": 3, "par": 3, "yards": 170},
+                    {"hole": 4, "par": 4, "yards": 410},
+                    {"hole": 5, "par": 4, "yards": 390},
+                    {"hole": 6, "par": 5, "yards": 540},
+                    {"hole": 7, "par": 3, "yards": 160},
+                    {"hole": 8, "par": 4, "yards": 420},
+                    {"hole": 9, "par": 4, "yards": 380},
+                    {"hole": 10, "par": 4, "yards": 410},
+                    {"hole": 11, "par": 5, "yards": 520},
+                    {"hole": 12, "par": 3, "yards": 180},
+                    {"hole": 13, "par": 4, "yards": 430},
+                    {"hole": 14, "par": 4, "yards": 370},
+                    {"hole": 15, "par": 5, "yards": 500},
+                    {"hole": 16, "par": 3, "yards": 190},
+                    {"hole": 17, "par": 4, "yards": 400},
+                    {"hole": 18, "par": 4, "yards": 411}
+                ]
+            }
+        },
+        {
+            "name": "Fairways & Bluewater",
+            "status": "Public/Resort",
+            "slope_rating": 125,
+            "yardage": 6200,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 370},
+                    {"hole": 2, "par": 5, "yards": 500},
+                    {"hole": 3, "par": 3, "yards": 160},
+                    {"hole": 4, "par": 4, "yards": 380},
+                    {"hole": 5, "par": 4, "yards": 360},
+                    {"hole": 6, "par": 5, "yards": 510},
+                    {"hole": 7, "par": 3, "yards": 150},
+                    {"hole": 8, "par": 4, "yards": 390},
+                    {"hole": 9, "par": 4, "yards": 370},
+                    {"hole": 10, "par": 4, "yards": 380},
+                    {"hole": 11, "par": 5, "yards": 490},
+                    {"hole": 12, "par": 3, "yards": 170},
+                    {"hole": 13, "par": 4, "yards": 400},
+                    {"hole": 14, "par": 4, "yards": 350},
+                    {"hole": 15, "par": 5, "yards": 480},
+                    {"hole": 16, "par": 3, "yards": 180},
+                    {"hole": 17, "par": 4, "yards": 390},
+                    {"hole": 18, "par": 4, "yards": 398}
+                ]
+            }
+        },
+        {
+            "name": "Filipinas Golf Club Hallow Ridge",
+            "status": "Private",
+            "slope_rating": 132,
+            "yardage": 6700,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 390},
+                    {"hole": 2, "par": 5, "yards": 520},
+                    {"hole": 3, "par": 3, "yards": 170},
+                    {"hole": 4, "par": 4, "yards": 410},
+                    {"hole": 5, "par": 4, "yards": 380},
+                    {"hole": 6, "par": 5, "yards": 530},
+                    {"hole": 7, "par": 3, "yards": 160},
+                    {"hole": 8, "par": 4, "yards": 420},
+                    {"hole": 9, "par": 4, "yards": 390},
+                    {"hole": 10, "par": 4, "yards": 400},
+                    {"hole": 11, "par": 5, "yards": 510},
+                    {"hole": 12, "par": 3, "yards": 180},
+                    {"hole": 13, "par": 4, "yards": 430},
+                    {"hole": 14, "par": 4, "yards": 370},
+                    {"hole": 15, "par": 5, "yards": 500},
+                    {"hole": 16, "par": 3, "yards": 190},
+                    {"hole": 17, "par": 4, "yards": 410},
+                    {"hole": 18, "par": 4, "yards": 402}
+                ]
+            }
+        },
+        {
+            "name": "Forest Hills Golf & Country Club (Nicklaus)",
+            "status": "Private",
+            "slope_rating": 136,
+            "yardage": 6900,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 410},
+                    {"hole": 2, "par": 5, "yards": 540},
+                    {"hole": 3, "par": 3, "yards": 180},
+                    {"hole": 4, "par": 4, "yards": 420},
+                    {"hole": 5, "par": 4, "yards": 390},
+                    {"hole": 6, "par": 5, "yards": 550},
+                    {"hole": 7, "par": 3, "yards": 170},
+                    {"hole": 8, "par": 4, "yards": 430},
+                    {"hole": 9, "par": 4, "yards": 400},
+                    {"hole": 10, "par": 4, "yards": 420},
+                    {"hole": 11, "par": 5, "yards": 520},
+                    {"hole": 12, "par": 3, "yards": 190},
+                    {"hole": 13, "par": 4, "yards": 440},
+                    {"hole": 14, "par": 4, "yards": 380},
+                    {"hole": 15, "par": 5, "yards": 510},
+                    {"hole": 16, "par": 3, "yards": 200},
+                    {"hole": 17, "par": 4, "yards": 410},
+                    {"hole": 18, "par": 4, "yards": 409}
+                ]
+            }
+        },
+        {
+            "name": "Forest Hills Golf & Country Club (Palmer)",
+            "status": "Private",
+            "slope_rating": 135,
+            "yardage": 6800,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 400},
+                    {"hole": 2, "par": 5, "yards": 530},
+                    {"hole": 3, "par": 3, "yards": 170},
+                    {"hole": 4, "par": 4, "yards": 410},
+                    {"hole": 5, "par": 4, "yards": 390},
+                    {"hole": 6, "par": 5, "yards": 540},
+                    {"hole": 7, "par": 3, "yards": 160},
+                    {"hole": 8, "par": 4, "yards": 420},
+                    {"hole": 9, "par": 4, "yards": 380},
+                    {"hole": 10, "par": 4, "yards": 410},
+                    {"hole": 11, "par": 5, "yards": 520},
+                    {"hole": 12, "par": 3, "yards": 180},
+                    {"hole": 13, "par": 4, "yards": 430},
+                    {"hole": 14, "par": 4, "yards": 370},
+                    {"hole": 15, "par": 5, "yards": 500},
+                    {"hole": 16, "par": 3, "yards": 190},
+                    {"hole": 17, "par": 4, "yards": 400},
+                    {"hole": 18, "par": 4, "yards": 410}
+                ]
+            }
+        },
+        {
+            "name": "Iloilo Golf & Country Club (Sta. Barbara)",
+            "status": "Private",
+            "slope_rating": 128,
+            "yardage": 6056,
+            "scorecard": {
+                "total_par": 71,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 360},
+                    {"hole": 2, "par": 5, "yards": 490},
+                    {"hole": 3, "par": 3, "yards": 150},
+                    {"hole": 4, "par": 4, "yards": 370},
+                    {"hole": 5, "par": 4, "yards": 350},
+                    {"hole": 6, "par": 5, "yards": 500},
+                    {"hole": 7, "par": 3, "yards": 140},
+                    {"hole": 8, "par": 4, "yards": 380},
+                    {"hole": 9, "par": 4, "yards": 360},
+                    {"hole": 10, "par": 4, "yards": 370},
+                    {"hole": 11, "par": 5, "yards": 480},
+                    {"hole": 12, "par": 3, "yards": 160},
+                    {"hole": 13, "par": 4, "yards": 390},
+                    {"hole": 14, "par": 4, "yards": 340},
+                    {"hole": 15, "par": 5, "yards": 470},
+                    {"hole": 16, "par": 3, "yards": 170},
+                    {"hole": 17, "par": 4, "yards": 380},
+                    {"hole": 18, "par": 4, "yards": 392}
+                ]
+            }
+        },
+        {
+            "name": "Manila Golf & Country Club",
+            "status": "Private",
+            "slope_rating": 140,
+            "yardage": 6800,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 400},
+                    {"hole": 2, "par": 5, "yards": 530},
+                    {"hole": 3, "par": 3, "yards": 180},
+                    {"hole": 4, "par": 4, "yards": 410},
+                    {"hole": 5, "par": 4, "yards": 390},
+                    {"hole": 6, "par": 5, "yards": 540},
+                    {"hole": 7, "par": 3, "yards": 170},
+                    {"hole": 8, "par": 4, "yards": 420},
+                    {"hole": 9, "par": 4, "yards": 380},
+                    {"hole": 10, "par": 4, "yards": 410},
+                    {"hole": 11, "par": 5, "yards": 520},
+                    {"hole": 12, "par": 3, "yards": 190},
+                    {"hole": 13, "par": 4, "yards": 430},
+                    {"hole": 14, "par": 4, "yards": 370},
+                    {"hole": 15, "par": 5, "yards": 510},
+                    {"hole": 16, "par": 3, "yards": 200},
+                    {"hole": 17, "par": 4, "yards": 410},
+                    {"hole": 18, "par": 4, "yards": 409}
+                ]
+            }
+        },
+        {
+            "name": "Manila Southwoods (Legends)",
+            "status": "Private",
+            "slope_rating": 138,
+            "yardage": 7200,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 430},
+                    {"hole": 2, "par": 5, "yards": 560},
+                    {"hole": 3, "par": 3, "yards": 190},
+                    {"hole": 4, "par": 4, "yards": 450},
+                    {"hole": 5, "par": 4, "yards": 410},
+                    {"hole": 6, "par": 5, "yards": 570},
+                    {"hole": 7, "par": 3, "yards": 180},
+                    {"hole": 8, "par": 4, "yards": 460},
+                    {"hole": 9, "par": 4, "yards": 420},
+                    {"hole": 10, "par": 4, "yards": 440},
+                    {"hole": 11, "par": 5, "yards": 550},
+                    {"hole": 12, "par": 3, "yards": 200},
+                    {"hole": 13, "par": 4, "yards": 470},
+                    {"hole": 14, "par": 4, "yards": 400},
+                    {"hole": 15, "par": 5, "yards": 530},
+                    {"hole": 16, "par": 3, "yards": 210},
+                    {"hole": 17, "par": 4, "yards": 420},
+                    {"hole": 18, "par": 4, "yards": 420}
+                ]
+            }
+        },
+        {
+            "name": "Manila Southwoods (Masters)",
+            "status": "Private",
+            "slope_rating": 137,
+            "yardage": 7100,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 420},
+                    {"hole": 2, "par": 5, "yards": 550},
+                    {"hole": 3, "par": 3, "yards": 180},
+                    {"hole": 4, "par": 4, "yards": 430},
+                    {"hole": 5, "par": 4, "yards": 400},
+                    {"hole": 6, "par": 5, "yards": 560},
+                    {"hole": 7, "par": 3, "yards": 170},
+                    {"hole": 8, "par": 4, "yards": 440},
+                    {"hole": 9, "par": 4, "yards": 410},
+                    {"hole": 10, "par": 4, "yards": 430},
+                    {"hole": 11, "par": 5, "yards": 540},
+                    {"hole": 12, "par": 3, "yards": 190},
+                    {"hole": 13, "par": 4, "yards": 450},
+                    {"hole": 14, "par": 4, "yards": 390},
+                    {"hole": 15, "par": 5, "yards": 520},
+                    {"hole": 16, "par": 3, "yards": 200},
+                    {"hole": 17, "par": 4, "yards": 430},
+                    {"hole": 18, "par": 4, "yards": 427}
+                ]
+            }
+        },
+        {
+            "name": "Mimosa Golf & Country Club",
+            "status": "Private",
+            "slope_rating": 139,
+            "yardage": 7000,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 420},
+                    {"hole": 2, "par": 5, "yards": 540},
+                    {"hole": 3, "par": 3, "yards": 190},
+                    {"hole": 4, "par": 4, "yards": 430},
+                    {"hole": 5, "par": 4, "yards": 400},
+                    {"hole": 6, "par": 5, "yards": 550},
+                    {"hole": 7, "par": 3, "yards": 170},
+                    {"hole": 8, "par": 4, "yards": 440},
+                    {"hole": 9, "par": 4, "yards": 410},
+                    {"hole": 10, "par": 4, "yards": 430},
+                    {"hole": 11, "par": 5, "yards": 530},
+                    {"hole": 12, "par": 3, "yards": 180},
+                    {"hole": 13, "par": 4, "yards": 450},
+                    {"hole": 14, "par": 4, "yards": 390},
+                    {"hole": 15, "par": 5, "yards": 520},
+                    {"hole": 16, "par": 3, "yards": 200},
+                    {"hole": 17, "par": 4, "yards": 420},
+                    {"hole": 18, "par": 4, "yards": 427}
+                ]
+            }
+        },
+        {
+            "name": "Mount Malarayat Golf & Country Club",
+            "status": "Private",
+            "slope_rating": 135,
+            "yardage": 6900,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 410},
+                    {"hole": 2, "par": 5, "yards": 540},
+                    {"hole": 3, "par": 3, "yards": 180},
+                    {"hole": 4, "par": 4, "yards": 420},
+                    {"hole": 5, "par": 4, "yards": 390},
+                    {"hole": 6, "par": 5, "yards": 550},
+                    {"hole": 7, "par": 3, "yards": 170},
+                    {"hole": 8, "par": 4, "yards": 430},
+                    {"hole": 9, "par": 4, "yards": 400},
+                    {"hole": 10, "par": 4, "yards": 420},
+                    {"hole": 11, "par": 5, "yards": 520},
+                    {"hole": 12, "par": 3, "yards": 190},
+                    {"hole": 13, "par": 4, "yards": 440},
+                    {"hole": 14, "par": 4, "yards": 380},
+                    {"hole": 15, "par": 5, "yards": 510},
+                    {"hole": 16, "par": 3, "yards": 200},
+                    {"hole": 17, "par": 4, "yards": 410},
+                    {"hole": 18, "par": 4, "yards": 409}
+                ]
+            }
+        },
+        {
+            "name": "Negros Occidental Golf & Country Club",
+            "status": "Private",
+            "slope_rating": 129,
+            "yardage": 6500,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 380},
+                    {"hole": 2, "par": 5, "yards": 500},
+                    {"hole": 3, "par": 3, "yards": 160},
+                    {"hole": 4, "par": 4, "yards": 400},
+                    {"hole": 5, "par": 4, "yards": 370},
+                    {"hole": 6, "par": 5, "yards": 510},
+                    {"hole": 7, "par": 3, "yards": 150},
+                    {"hole": 8, "par": 4, "yards": 410},
+                    {"hole": 9, "par": 4, "yards": 390},
+                    {"hole": 10, "par": 4, "yards": 400},
+                    {"hole": 11, "par": 5, "yards": 520},
+                    {"hole": 12, "par": 3, "yards": 170},
+                    {"hole": 13, "par": 4, "yards": 420},
+                    {"hole": 14, "par": 4, "yards": 360},
+                    {"hole": 15, "par": 5, "yards": 490},
+                    {"hole": 16, "par": 3, "yards": 180},
+                    {"hole": 17, "par": 4, "yards": 400},
+                    {"hole": 18, "par": 4, "yards": 395}
+                ]
+            }
+        },
+        {
+            "name": "Orchard Golf & Country Club (Palmer)",
+            "status": "Private",
+            "slope_rating": 141,
+            "yardage": 7200,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 430},
+                    {"hole": 2, "par": 5, "yards": 560},
+                    {"hole": 3, "par": 3, "yards": 190},
+                    {"hole": 4, "par": 4, "yards": 450},
+                    {"hole": 5, "par": 4, "yards": 410},
+                    {"hole": 6, "par": 5, "yards": 570},
+                    {"hole": 7, "par": 3, "yards": 180},
+                    {"hole": 8, "par": 4, "yards": 460},
+                    {"hole": 9, "par": 4, "yards": 420},
+                    {"hole": 10, "par": 4, "yards": 440},
+                    {"hole": 11, "par": 5, "yards": 550},
+                    {"hole": 12, "par": 3, "yards": 200},
+                    {"hole": 13, "par": 4, "yards": 470},
+                    {"hole": 14, "par": 4, "yards": 400},
+                    {"hole": 15, "par": 5, "yards": 530},
+                    {"hole": 16, "par": 3, "yards": 210},
+                    {"hole": 17, "par": 4, "yards": 420},
+                    {"hole": 18, "par": 4, "yards": 420}
+                ]
+            }
+        },
+        {
+            "name": "Orchard Golf & Country Club (Player)",
+            "status": "Private",
+            "slope_rating": 140,
+            "yardage": 7100,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 420},
+                    {"hole": 2, "par": 5, "yards": 550},
+                    {"hole": 3, "par": 3, "yards": 180},
+                    {"hole": 4, "par": 4, "yards": 430},
+                    {"hole": 5, "par": 4, "yards": 400},
+                    {"hole": 6, "par": 5, "yards": 560},
+                    {"hole": 7, "par": 3, "yards": 170},
+                    {"hole": 8, "par": 4, "yards": 440},
+                    {"hole": 9, "par": 4, "yards": 410},
+                    {"hole": 10, "par": 4, "yards": 430},
+                    {"hole": 11, "par": 5, "yards": 540},
+                    {"hole": 12, "par": 3, "yards": 190},
+                    {"hole": 13, "par": 4, "yards": 450},
+                    {"hole": 14, "par": 4, "yards": 390},
+                    {"hole": 15, "par": 5, "yards": 520},
+                    {"hole": 16, "par": 3, "yards": 200},
+                    {"hole": 17, "par": 4, "yards": 420},
+                    {"hole": 18, "par": 4, "yards": 420}
+                ]
+            }
+        },
+            {
+                "name": "Philippine Navy Golf Club",
+                "status": "Public/Military",
+                "slope_rating": 122,
+                "yardage": 6000,
+                "scorecard": {
+                    "total_par": 70,
+                    "holes": [
+                        {"hole": 1, "par": 4, "yards": 360},
+                        {"hole": 2, "par": 4, "yards": 370},
+                        {"hole": 3, "par": 3, "yards": 150},
+                        {"hole": 4, "par": 4, "yards": 380},
+                        {"hole": 5, "par": 4, "yards": 350},
+                        {"hole": 6, "par": 5, "yards": 500},
+                        {"hole": 7, "par": 3, "yards": 140},
+                        {"hole": 8, "par": 4, "yards": 390},
+                        {"hole": 9, "par": 4, "yards": 360},
+                        {"hole": 10, "par": 4, "yards": 370},
+                        {"hole": 11, "par": 5, "yards": 480},
+                        {"hole": 12, "par": 3, "yards": 160},
+                        {"hole": 13, "par": 4, "yards": 400},
+                        {"hole": 14, "par": 4, "yards": 340},
+                        {"hole": 15, "par": 5, "yards": 470},
+                        {"hole": 16, "par": 3, "yards": 170},
+                        {"hole": 17, "par": 4, "yards": 380},
+                        {"hole": 18, "par": 4, "yards": 406}
+                    ]
+                }
+            },
+            {
+                "name": "Pradera Verde Golf Club",
+                "status": "Private",
+                "slope_rating": 133,
+                "yardage": 6800,
+                "scorecard": {
+                    "total_par": 72,
+                    "holes": [
+                        {"hole": 1, "par": 4, "yards": 400},
+                        {"hole": 2, "par": 5, "yards": 530},
+                        {"hole": 3, "par": 3, "yards": 170},
+                        {"hole": 4, "par": 4, "yards": 410},
+                        {"hole": 5, "par": 4, "yards": 390},
+                        {"hole": 6, "par": 5, "yards": 540},
+                        {"hole": 7, "par": 3, "yards": 160},
+                        {"hole": 8, "par": 4, "yards": 420},
+                        {"hole": 9, "par": 4, "yards": 380},
+                        {"hole": 10, "par": 4, "yards": 410},
+                        {"hole": 11, "par": 5, "yards": 520},
+                        {"hole": 12, "par": 3, "yards": 180},
+                        {"hole": 13, "par": 4, "yards": 430},
+                        {"hole": 14, "par": 4, "yards": 370},
+                        {"hole": 15, "par": 5, "yards": 510},
+                        {"hole": 16, "par": 3, "yards": 190},
+                        {"hole": 17, "par": 4, "yards": 400},
+                        {"hole": 18, "par": 4, "yards": 411}
+                    ]
+                }
+            },
+            {
+                "name": "Pueblo de Oro Golf & Country Club",
+                "status": "Private",
+                "slope_rating": 130,
+                "yardage": 6600,
+                "scorecard": {
+                    "total_par": 72,
+                    "holes": [
+                        {"hole": 1, "par": 4, "yards": 390},
+                        {"hole": 2, "par": 5, "yards": 510},
+                        {"hole": 3, "par": 3, "yards": 170},
+                        {"hole": 4, "par": 4, "yards": 400},
+                        {"hole": 5, "par": 4, "yards": 380},
+                        {"hole": 6, "par": 5, "yards": 520},
+                        {"hole": 7, "par": 3, "yards": 160},
+                        {"hole": 8, "par": 4, "yards": 410},
+                        {"hole": 9, "par": 4, "yards": 390},
+                        {"hole": 10, "par": 4, "yards": 400},
+                        {"hole": 11, "par": 5, "yards": 500},
+                        {"hole": 12, "par": 3, "yards": 180},
+                        {"hole": 13, "par": 4, "yards": 420},
+                        {"hole": 14, "par": 4, "yards": 370},
+                        {"hole": 15, "par": 5, "yards": 490},
+                        {"hole": 16, "par": 3, "yards": 190},
+                        {"hole": 17, "par": 4, "yards": 410},
+                        {"hole": 18, "par": 4, "yards": 402}
+                    ]
+                }
+            },
+            {
+                "name": "Riviera Golf Club (Couples)",
+                "status": "Private",
+                "slope_rating": 142,
+                "yardage": 7300,
+                "scorecard": {
+                    "total_par": 72,
+                    "holes": [
+                        {"hole": 1, "par": 4, "yards": 440},
+                        {"hole": 2, "par": 5, "yards": 570},
+                        {"hole": 3, "par": 3, "yards": 200},
+                        {"hole": 4, "par": 4, "yards": 450},
+                        {"hole": 5, "par": 4, "yards": 420},
+                        {"hole": 6, "par": 5, "yards": 580},
+                        {"hole": 7, "par": 3, "yards": 180},
+                        {"hole": 8, "par": 4, "yards": 460},
+                        {"hole": 9, "par": 4, "yards": 430},
+                        {"hole": 10, "par": 4, "yards": 450},
+                        {"hole": 11, "par": 5, "yards": 560},
+                        {"hole": 12, "par": 3, "yards": 190},
+                        {"hole": 13, "par": 4, "yards": 470},
+                        {"hole": 14, "par": 4, "yards": 400},
+                        {"hole": 15, "par": 5, "yards": 540},
+                        {"hole": 16, "par": 3, "yards": 210},
+                        {"hole": 17, "par": 4, "yards": 440},
+                        {"hole": 18, "par": 4, "yards": 412}
+                    ]
+                }
+            },
+            {
+                "name": "Riviera Golf Club (Langer)",
+                "status": "Private",
+                "slope_rating": 140,
+                "yardage": 7100,
+                "scorecard": {
+                    "total_par": 72,
+                    "holes": [
+                        {"hole": 1, "par": 4, "yards": 420},
+                        {"hole": 2, "par": 5, "yards": 550},
+                        {"hole": 3, "par": 3, "yards": 180},
+                        {"hole": 4, "par": 4, "yards": 430},
+                        {"hole": 5, "par": 4, "yards": 400},
+                        {"hole": 6, "par": 5, "yards": 560},
+                        {"hole": 7, "par": 3, "yards": 170},
+                        {"hole": 8, "par": 4, "yards": 440},
+                        {"hole": 9, "par": 4, "yards": 410},
+                        {"hole": 10, "par": 4, "yards": 430},
+                        {"hole": 11, "par": 5, "yards": 540},
+                        {"hole": 12, "par": 3, "yards": 190},
+                        {"hole": 13, "par": 4, "yards": 450},
+                        {"hole": 14, "par": 4, "yards": 390},
+                        {"hole": 15, "par": 5, "yards": 520},
+                        {"hole": 16, "par": 3, "yards": 200},
+                        {"hole": 17, "par": 4, "yards": 420},
+                        {"hole": 18, "par": 4, "yards": 420}
+                    ]
+                }
+            },
+            {
+                "name": "Royale Tagaytay Golf & Country Club",
+                "status": "Private",
+                "slope_rating": 131,
+                "yardage": 6700,
+                "scorecard": {
+                    "total_par": 72,
+                    "holes": [
+                        {"hole": 1, "par": 4, "yards": 390},
+                        {"hole": 2, "par": 5, "yards": 520},
+                        {"hole": 3, "par": 3, "yards": 170},
+                        {"hole": 4, "par": 4, "yards": 410},
+                        {"hole": 5, "par": 4, "yards": 380},
+                        {"hole": 6, "par": 5, "yards": 530},
+                        {"hole": 7, "par": 3, "yards": 160},
+                        {"hole": 8, "par": 4, "yards": 420},
+                        {"hole": 9, "par": 4, "yards": 390},
+                        {"hole": 10, "par": 4, "yards": 400},
+                        {"hole": 11, "par": 5, "yards": 510},
+                        {"hole": 12, "par": 3, "yards": 180},
+                        {"hole": 13, "par": 4, "yards": 430},
+                        {"hole": 14, "par": 4, "yards": 370},
+                        {"hole": 15, "par": 5, "yards": 500},
+                        {"hole": 16, "par": 3, "yards": 190},
+                        {"hole": 17, "par": 4, "yards": 410},
+                        {"hole": 18, "par": 4, "yards": 402}
+                    ]
+                }
+            },
+            {
+                "name": "Sherwood Hills Golf Club",
+                "status": "Private",
+                "slope_rating": 136,
+                "yardage": 6900,
+                "scorecard": {
+                    "total_par": 72,
+                    "holes": [
+                        {"hole": 1, "par": 4, "yards": 410},
+                        {"hole": 2, "par": 5, "yards": 540},
+                        {"hole": 3, "par": 3, "yards": 180},
+                        {"hole": 4, "par": 4, "yards": 420},
+                        {"hole": 5, "par": 4, "yards": 390},
+                        {"hole": 6, "par": 5, "yards": 550},
+                        {"hole": 7, "par": 3, "yards": 170},
+                        {"hole": 8, "par": 4, "yards": 430},
+                        {"hole": 9, "par": 4, "yards": 400},
+                        {"hole": 10, "par": 4, "yards": 420},
+                        {"hole": 11, "par": 5, "yards": 520},
+                        {"hole": 12, "par": 3, "yards": 190},
+                        {"hole": 13, "par": 4, "yards": 440},
+                        {"hole": 14, "par": 4, "yards": 380},
+                        {"hole": 15, "par": 5, "yards": 510},
+                        {"hole": 16, "par": 3, "yards": 200},
+                        {"hole": 17, "par": 4, "yards": 410},
+                        {"hole": 18, "par": 4, "yards": 409}
+                    ]
+                }
+            },
+            {
+                "name": "Southlinks Golf Club",
+                "status": "Private",
+                "slope_rating": 128,
+                "yardage": 6500,
+                "scorecard": {
+                    "total_par": 72,
+                    "holes": [
+                        {"hole": 1, "par": 4, "yards": 380},
+                        {"hole": 2, "par": 5, "yards": 500},
+                        {"hole": 3, "par": 3, "yards": 160},
+                        {"hole": 4, "par": 4, "yards": 400},
+                        {"hole": 5, "par": 4, "yards": 370},
+                        {"hole": 6, "par": 5, "yards": 510},
+                        {"hole": 7, "par": 3, "yards": 150},
+                        {"hole": 8, "par": 4, "yards": 410},
+                        {"hole": 9, "par": 4, "yards": 390},
+                        {"hole": 10, "par": 4, "yards": 400},
+                        {"hole": 11, "par": 5, "yards": 520},
+                        {"hole": 12, "par": 3, "yards": 170},
+                        {"hole": 13, "par": 4, "yards": 420},
+                        {"hole": 14, "par": 4, "yards": 360},
+                        {"hole": 15, "par": 5, "yards": 490},
+                        {"hole": 16, "par": 3, "yards": 180},
+                        {"hole": 17, "par": 4, "yards": 400},
+                        {"hole": 18, "par": 4, "yards": 395}
+                    ]
+                }
+            },
+            {
+                "name": "Splendido Taal Golf Club",
+                "status": "Private",
+                "slope_rating": 134,
+                "yardage": 6800,
+                "scorecard": {
+                    "total_par": 72,
+                    "holes": [
+                        {"hole": 1, "par": 4, "yards": 400},
+                        {"hole": 2, "par": 5, "yards": 530},
+                        {"hole": 3, "par": 3, "yards": 170},
+                        {"hole": 4, "par": 4, "yards": 410},
+                        {"hole": 5, "par": 4, "yards": 390},
+                        {"hole": 6, "par": 5, "yards": 540},
+                        {"hole": 7, "par": 3, "yards": 160},
+                        {"hole": 8, "par": 4, "yards": 420},
+                        {"hole": 9, "par": 4, "yards": 380},
+                        {"hole": 10, "par": 4, "yards": 410},
+                        {"hole": 11, "par": 5, "yards": 520},
+                        {"hole": 12, "par": 3, "yards": 180},
+                        {"hole": 13, "par": 4, "yards": 430},
+                        {"hole": 14, "par": 4, "yards": 370},
+                        {"hole": 15, "par": 5, "yards": 510},
+                        {"hole": 16, "par": 3, "yards": 190},
+                        {"hole": 17, "par": 4, "yards": 400},
+                        {"hole": 18, "par": 4, "yards": 411}
+                    ]
+                }
+            },
+            {
+                "name": "Sta. Elena Golf & Country Club (Banahaw)",
+                "status": "Private",
+                "slope_rating": 140,
+                "yardage": 7100,
+                "scorecard": {
+                    "total_par": 72,
+                    "holes": [
+                        {"hole": 1, "par": 4, "yards": 420},
+                        {"hole": 2, "par": 5, "yards": 550},
+                        {"hole": 3, "par": 3, "yards": 180},
+                        {"hole": 4, "par": 4, "yards": 430},
+                        {"hole": 5, "par": 4, "yards": 400},
+                        {"hole": 6, "par": 5, "yards": 560},
+                        {"hole": 7, "par": 3, "yards": 170},
+                        {"hole": 8, "par": 4, "yards": 440},
+                        {"hole": 9, "par": 4, "yards": 410},
+                        {"hole": 10, "par": 4, "yards": 430},
+                        {"hole": 11, "par": 5, "yards": 540},
+                        {"hole": 12, "par": 3, "yards": 190},
+                        {"hole": 13, "par": 4, "yards": 450},
+                        {"hole": 14, "par": 4, "yards": 390},
+                        {"hole": 15, "par": 5, "yards": 520},
+                        {"hole": 16, "par": 3, "yards": 200},
+                        {"hole": 17, "par": 4, "yards": 420},
+                        {"hole": 18, "par": 4, "yards": 420}
+                    ]
+                }
+            },
+            {
+                "name": "Sta. Elena Golf & Country Club (Makiling)",
+                "status": "Private",
+                "slope_rating": 138,
+                "yardage": 7000,
+                "scorecard": {
+                    "total_par": 72,
+                    "holes": [
+                        {"hole": 1, "par": 4, "yards": 420},
+                        {"hole": 2, "par": 5, "yards": 540},
+                        {"hole": 3, "par": 3, "yards": 190},
+                        {"hole": 4, "par": 4, "yards": 430},
+                        {"hole": 5, "par": 4, "yards": 400},
+                        {"hole": 6, "par": 5, "yards": 550},
+                        {"hole": 7, "par": 3, "yards": 170},
+                        {"hole": 8, "par": 4, "yards": 440},
+                        {"hole": 9, "par": 4, "yards": 410},
+                        {"hole": 10, "par": 4, "yards": 430},
+                        {"hole": 11, "par": 5, "yards": 530},
+                        {"hole": 12, "par": 3, "yards": 180},
+                        {"hole": 13, "par": 4, "yards": 450},
+                        {"hole": 14, "par": 4, "yards": 390},
+                        {"hole": 15, "par": 5, "yards": 520},
+                        {"hole": 16, "par": 3, "yards": 200},
+                        {"hole": 17, "par": 4, "yards": 410},
+                        {"hole": 18, "par": 4, "yards": 427}
+                    ]
+                }
+            },
+            {
+                "name": "Summit Point Golf & Country Club",
+                "status": "Private",
+                "slope_rating": 132,
+                "yardage": 6700,
+                "scorecard": {
+                    "total_par": 72,
+                    "holes": [
+                        {"hole": 1, "par": 4, "yards": 390},
+                        {"hole": 2, "par": 5, "yards": 520},
+                        {"hole": 3, "par": 3, "yards": 170},
+                        {"hole": 4, "par": 4, "yards": 410},
+                        {"hole": 5, "par": 4, "yards": 380},
+                        {"hole": 6, "par": 5, "yards": 530},
+                        {"hole": 7, "par": 3, "yards": 160},
+                        {"hole": 8, "par": 4, "yards": 420},
+                        {"hole": 9, "par": 4, "yards": 390},
+                        {"hole": 10, "par": 4, "yards": 400},
+                        {"hole": 11, "par": 5, "yards": 510},
+                        {"hole": 12, "par": 3, "yards": 180},
+                        {"hole": 13, "par": 4, "yards": 430},
+                        {"hole": 14, "par": 4, "yards": 370},
+                        {"hole": 15, "par": 5, "yards": 500},
+                        {"hole": 16, "par": 3, "yards": 190},
+                        {"hole": 17, "par": 4, "yards": 410},
+                        {"hole": 18, "par": 4, "yards": 402}
+                    ]
+                }
+            },
+            {
+                "name": "Tagaytay Highlands Golf Club",
+                "status": "Private",
+                "slope_rating": 137,
+                "yardage": 6900,
+                "scorecard": {
+                    "total_par": 72,
+                    "holes": [
+                        {"hole": 1, "par": 4, "yards": 410},
+                        {"hole": 2, "par": 5, "yards": 540},
+                        {"hole": 3, "par": 3, "yards": 180},
+                        {"hole": 4, "par": 4, "yards": 420},
+                        {"hole": 5, "par": 4, "yards": 390},
+                        {"hole": 6, "par": 5, "yards": 550},
+                        {"hole": 7, "par": 3, "yards": 170},
+                        {"hole": 8, "par": 4, "yards": 430},
+                        {"hole": 9, "par": 4, "yards": 400},
+                        {"hole": 10, "par": 4, "yards": 420},
+                        {"hole": 11, "par": 5, "yards": 520},
+                        {"hole": 12, "par": 3, "yards": 190},
+                        {"hole": 13, "par": 4, "yards": 440},
+                        {"hole": 14, "par": 4, "yards": 380},
+                        {"hole": 15, "par": 5, "yards": 510},
+                        {"hole": 16, "par": 3, "yards": 200},
+                        {"hole": 17, "par": 4, "yards": 410},
+                        {"hole": 18, "par": 4, "yards": 409}
+                    ]
+                }
+            },
+            {
+                "name": "Tagaytay Midlands Golf Club",
+                "status": "Private",
+                "slope_rating": 135,
+                "yardage": 6800,
+                "scorecard": {
+                    "total_par": 72,
+                    "holes": [
+                        {"hole": 1, "par": 4, "yards": 400},
+                        {"hole": 2, "par": 5, "yards": 530},
+                        {"hole": 3, "par": 3, "yards": 170},
+                        {"hole": 4, "par": 4, "yards": 410},
+                        {"hole": 5, "par": 4, "yards": 390},
+                        {"hole": 6, "par": 5, "yards": 540},
+                        {"hole": 7, "par": 3, "yards": 160},
+                        {"hole": 8, "par": 4, "yards": 420},
+                        {"hole": 9, "par": 4, "yards": 380},
+                        {"hole": 10, "par": 4, "yards": 410},
+                        {"hole": 11, "par": 5, "yards": 520},
+                        {"hole": 12, "par": 3, "yards": 180},
+                        {"hole": 13, "par": 4, "yards": 430},
+                        {"hole": 14, "par": 4, "yards": 370},
+                        {"hole": 15, "par": 5, "yards": 510},
+                        {"hole": 16, "par": 3, "yards": 190},
+                        {"hole": 17, "par": 4, "yards": 400},
+                        {"hole": 18, "par": 4, "yards": 411}
+                    ]
+                }
+            },
+            {
+                "name": "Valley Golf & Country Club (North)",
+                "status": "Private",
+                "slope_rating": 138,
+                "yardage": 7000,
+                "scorecard": {
+                    "total_par": 72,
+                    "holes": [
+                        {"hole": 1, "par": 4, "yards": 420},
+                        {"hole": 2, "par": 5, "yards": 540},
+                        {"hole": 3, "par": 3, "yards": 190},
+                        {"hole": 4, "par": 4, "yards": 430},
+                        {"hole": 5, "par": 4, "yards": 400},
+                        {"hole": 6, "par": 5, "yards": 550},
+                        {"hole": 7, "par": 3, "yards": 170},
+                        {"hole": 8, "par": 4, "yards": 440},
+                        {"hole": 9, "par": 4, "yards": 410},
+                        {"hole": 10, "par": 4, "yards": 430},
+                        {"hole": 11, "par": 5, "yards": 530},
+                        {"hole": 12, "par": 3, "yards": 180},
+                        {"hole": 13, "par": 4, "yards": 450},
+                        {"hole": 14, "par": 4, "yards": 390},
+                        {"hole": 15, "par": 5, "yards": 520},
+                        {"hole": 16, "par": 3, "yards": 200},
+                        {"hole": 17, "par": 4, "yards": 420},
+                        {"hole": 18, "par": 4, "yards": 427}
+                    ]
+                }
+            },
+            {
+                "name": "Valley Golf & Country Club (South)",
+                "status": "Private",
+                "slope_rating": 136,
+                "yardage": 6900,
+                "scorecard": {
+                    "total_par": 72,
+                    "holes": [
+                        {"hole": 1, "par": 4, "yards": 410},
+                        {"hole": 2, "par": 5, "yards": 540},
+                        {"hole": 3, "par": 3, "yards": 180},
+                        {"hole": 4, "par": 4, "yards": 420},
+                        {"hole": 5, "par": 4, "yards": 390},
+                        {"hole": 6, "par": 5, "yards": 550},
+                        {"hole": 7, "par": 3, "yards": 170},
+                        {"hole": 8, "par": 4, "yards": 430},
+                        {"hole": 9, "par": 4, "yards": 400},
+                        {"hole": 10, "par": 4, "yards": 420},
+                        {"hole": 11, "par": 5, "yards": 520},
+                        {"hole": 12, "par": 3, "yards": 190},
+                        {"hole": 13, "par": 4, "yards": 440},
+                        {"hole": 14, "par": 4, "yards": 380},
+                        {"hole": 15, "par": 5, "yards": 510},
+                        {"hole": 16, "par": 3, "yards": 200},
+                        {"hole": 17, "par": 4, "yards": 410},
+                        {"hole": 18, "par": 4, "yards": 409}
+                    ]
+                }
+            },
+            {
+                "name": "Villamor Golf Club",
+                "status": "Public/Military",
+                "slope_rating": 124,
+                "yardage": 6300,
+                "scorecard": {
+                    "total_par": 72,
+                    "holes": [
+                        {"hole": 1, "par": 4, "yards": 370},
+                        {"hole": 2, "par": 5, "yards": 500},
+                        {"hole": 3, "par": 3, "yards": 160},
+                        {"hole": 4, "par": 4, "yards": 390},
+                        {"hole": 5, "par": 4, "yards": 360},
+                        {"hole": 6, "par": 5, "yards": 510},
+                        {"hole": 7, "par": 3, "yards": 150},
+                        {"hole": 8, "par": 4, "yards": 400},
+                        {"hole": 9, "par": 4, "yards": 380},
+                        {"hole": 10, "par": 4, "yards": 390},
+                        {"hole": 11, "par": 5, "yards": 490},
+                        {"hole": 12, "par": 3, "yards": 170},
+                        {"hole": 13, "par": 4, "yards": 410},
+                        {"hole": 14, "par": 4, "yards": 350},
+                        {"hole": 15, "par": 5, "yards": 480},
+                        {"hole": 16, "par": 3, "yards": 180},
+                        {"hole": 17, "par": 4, "yards": 400},
+                        {"hole": 18, "par": 4, "yards": 402}
+                    ]
+                }
+            },
+            {
+                "name": "Wack Wack Golf & Country Club (East)",
+                "status": "Private",
+                "slope_rating": 142,
+                "yardage": 7200,
+                "scorecard": {
+                    "total_par": 72,
+                    "holes": [
+                        {"hole": 1, "par": 4, "yards": 430},
+                        {"hole": 2, "par": 5, "yards": 560},
+                        {"hole": 3, "par": 3, "yards": 190},
+                        {"hole": 4, "par": 4, "yards": 450},
+                        {"hole": 5, "par": 4, "yards": 410},
+                        {"hole": 6, "par": 5, "yards": 570},
+                        {"hole": 7, "par": 3, "yards": 180},
+                        {"hole": 8, "par": 4, "yards": 460},
+                        {"hole": 9, "par": 4, "yards": 420},
+                        {"hole": 10, "par": 4, "yards": 440},
+                        {"hole": 11, "par": 5, "yards": 550},
+                        {"hole": 12, "par": 3, "yards": 200},
+                        {"hole": 13, "par": 4, "yards": 470},
+                        {"hole": 14, "par": 4, "yards": 400},
+                        {"hole": 15, "par": 5, "yards": 530},
+                        {"hole": 16, "par": 3, "yards": 210},
+                        {"hole": 17, "par": 4, "yards": 420},
+                        {"hole": 18, "par": 4, "yards": 420}
+                    ]
+                }
+            },
+            {
+                "name": "Wack Wack Golf & Country Club (West)",
+                "status": "Private",
+                "slope_rating": 140,
+                "yardage": 7100,
+                "scorecard": {
+                    "total_par": 72,
+                    "holes": [
+                        {"hole": 1, "par": 4, "yards": 420},
+                        {"hole": 2, "par": 5, "yards": 550},
+                        {"hole": 3, "par": 3, "yards": 180},
+                        {"hole": 4, "par": 4, "yards": 430},
+                        {"hole": 5, "par": 4, "yards": 400},
+                        {"hole": 6, "par": 5, "yards": 560},
+                        {"hole": 7, "par": 3, "yards": 170},
+                        {"hole": 8, "par": 4, "yards": 440},
+                        {"hole": 9, "par": 4, "yards": 410},
+                        {"hole": 10, "par": 4, "yards": 430},
+                        {"hole": 11, "par": 5, "yards": 540},
+                        {"hole": 12, "par": 3, "yards": 190},
+                        {"hole": 13, "par": 4, "yards": 450},
+                        {"hole": 14, "par": 4, "yards": 390},
+                        {"hole": 15, "par": 5, "yards": 520},
+                        {"hole": 16, "par": 3, "yards": 200},
+                        {"hole": 17, "par": 4, "yards": 420},
+                        {"hole": 18, "par": 4, "yards": 420}
+                    ]
+                }
+            },
+            {
+                "name": "Apo Golf & Country Club",
+                "status": "Private",
+                "slope_rating": 131,
+                "yardage": 6700,
+                "scorecard": {
+                    "total_par": 72,
+                    "holes": [
+                        {"hole": 1, "par": 4, "yards": 390},
+                        {"hole": 2, "par": 5, "yards": 520},
+                        {"hole": 3, "par": 3, "yards": 170},
+                        {"hole": 4, "par": 4, "yards": 410},
+                        {"hole": 5, "par": 4, "yards": 380},
+                        {"hole": 6, "par": 5, "yards": 530},
+                        {"hole": 7, "par": 3, "yards": 160},
+                        {"hole": 8, "par": 4, "yards": 420},
+                        {"hole": 9, "par": 4, "yards": 390},
+                        {"hole": 10, "par": 4, "yards": 400},
+                        {"hole": 11, "par": 5, "yards": 510},
+                        {"hole": 12, "par": 3, "yards": 180},
+                        {"hole": 13, "par": 4, "yards": 430},
+                        {"hole": 14, "par": 4, "yards": 370},
+                        {"hole": 15, "par": 5, "yards": 500},
+                        {"hole": 16, "par": 3, "yards": 190},
+                        {"hole": 17, "par": 4, "yards": 410},
+                        {"hole": 18, "par": 4, "yards": 402}
+                    ]
+                }
+            }
+        ,
+        {
+            "name": "Luisita Golf & Country Club",
+            "status": "Private",
+            "slope_rating": 136,
+            "yardage": 6900,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 410},
+                    {"hole": 2, "par": 5, "yards": 540},
+                    {"hole": 3, "par": 3, "yards": 180},
+                    {"hole": 4, "par": 4, "yards": 420},
+                    {"hole": 5, "par": 4, "yards": 390},
+                    {"hole": 6, "par": 5, "yards": 550},
+                    {"hole": 7, "par": 3, "yards": 170},
+                    {"hole": 8, "par": 4, "yards": 430},
+                    {"hole": 9, "par": 4, "yards": 400},
+                    {"hole": 10, "par": 4, "yards": 420},
+                    {"hole": 11, "par": 5, "yards": 520},
+                    {"hole": 12, "par": 3, "yards": 190},
+                    {"hole": 13, "par": 4, "yards": 440},
+                    {"hole": 14, "par": 4, "yards": 380},
+                    {"hole": 15, "par": 5, "yards": 510},
+                    {"hole": 16, "par": 3, "yards": 200},
+                    {"hole": 17, "par": 4, "yards": 410},
+                    {"hole": 18, "par": 4, "yards": 409}
+                ]
+            }
+        },
+        {
+            "name": "Camp Aguinaldo Golf Club",
+            "status": "Public/Military",
+            "slope_rating": 123,
+            "yardage": 6200,
+            "scorecard": {
+                "total_par": 70,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 370},
+                    {"hole": 2, "par": 4, "yards": 380},
+                    {"hole": 3, "par": 3, "yards": 160},
+                    {"hole": 4, "par": 4, "yards": 390},
+                    {"hole": 5, "par": 4, "yards": 360},
+                    {"hole": 6, "par": 5, "yards": 500},
+                    {"hole": 7, "par": 3, "yards": 150},
+                    {"hole": 8, "par": 4, "yards": 400},
+                    {"hole": 9, "par": 4, "yards": 370},
+                    {"hole": 10, "par": 4, "yards": 380},
+                    {"hole": 11, "par": 5, "yards": 490},
+                    {"hole": 12, "par": 3, "yards": 170},
+                    {"hole": 13, "par": 4, "yards": 410},
+                    {"hole": 14, "par": 4, "yards": 350},
+                    {"hole": 15, "par": 5, "yards": 480},
+                    {"hole": 16, "par": 3, "yards": 180},
+                    {"hole": 17, "par": 4, "yards": 390},
+                    {"hole": 18, "par": 4, "yards": 398}
+                ]
+            }
+        },
+        {
+            "name": "Veterans Golf Club",
+            "status": "Public/Military",
+            "slope_rating": 121,
+            "yardage": 6100,
+            "scorecard": {
+                "total_par": 70,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 360},
+                    {"hole": 2, "par": 4, "yards": 370},
+                    {"hole": 3, "par": 3, "yards": 150},
+                    {"hole": 4, "par": 4, "yards": 380},
+                    {"hole": 5, "par": 4, "yards": 350},
+                    {"hole": 6, "par": 5, "yards": 490},
+                    {"hole": 7, "par": 3, "yards": 140},
+                    {"hole": 8, "par": 4, "yards": 390},
+                    {"hole": 9, "par": 4, "yards": 360},
+                    {"hole": 10, "par": 4, "yards": 370},
+                    {"hole": 11, "par": 5, "yards": 480},
+                    {"hole": 12, "par": 3, "yards": 160},
+                    {"hole": 13, "par": 4, "yards": 400},
+                    {"hole": 14, "par": 4, "yards": 340},
+                    {"hole": 15, "par": 5, "yards": 470},
+                    {"hole": 16, "par": 3, "yards": 170},
+                    {"hole": 17, "par": 4, "yards": 380},
+                    {"hole": 18, "par": 4, "yards": 405}
+                ]
+            }
+        },
+        {
+            "name": "Alta Cebu Village Golf Course",
+            "status": "Private",
+            "slope_rating": 129,
+            "yardage": 6500,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 380},
+                    {"hole": 2, "par": 5, "yards": 500},
+                    {"hole": 3, "par": 3, "yards": 160},
+                    {"hole": 4, "par": 4, "yards": 400},
+                    {"hole": 5, "par": 4, "yards": 370},
+                    {"hole": 6, "par": 5, "yards": 510},
+                    {"hole": 7, "par": 3, "yards": 150},
+                    {"hole": 8, "par": 4, "yards": 410},
+                    {"hole": 9, "par": 4, "yards": 390},
+                    {"hole": 10, "par": 4, "yards": 400},
+                    {"hole": 11, "par": 5, "yards": 520},
+                    {"hole": 12, "par": 3, "yards": 170},
+                    {"hole": 13, "par": 4, "yards": 420},
+                    {"hole": 14, "par": 4, "yards": 360},
+                    {"hole": 15, "par": 5, "yards": 490},
+                    {"hole": 16, "par": 3, "yards": 180},
+                    {"hole": 17, "par": 4, "yards": 400},
+                    {"hole": 18, "par": 4, "yards": 395}
+                ]
+            }
+        },
+        {
+            "name": "Bacolod Golf & Country Club",
+            "status": "Private",
+            "slope_rating": 130,
+            "yardage": 6600,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 390},
+                    {"hole": 2, "par": 5, "yards": 510},
+                    {"hole": 3, "par": 3, "yards": 170},
+                    {"hole": 4, "par": 4, "yards": 400},
+                    {"hole": 5, "par": 4, "yards": 380},
+                    {"hole": 6, "par": 5, "yards": 520},
+                    {"hole": 7, "par": 3, "yards": 160},
+                    {"hole": 8, "par": 4, "yards": 410},
+                    {"hole": 9, "par": 4, "yards": 390},
+                    {"hole": 10, "par": 4, "yards": 400},
+                    {"hole": 11, "par": 5, "yards": 500},
+                    {"hole": 12, "par": 3, "yards": 180},
+                    {"hole": 13, "par": 4, "yards": 420},
+                    {"hole": 14, "par": 4, "yards": 370},
+                    {"hole": 15, "par": 5, "yards": 490},
+                    {"hole": 16, "par": 3, "yards": 190},
+                    {"hole": 17, "par": 4, "yards": 410},
+                    {"hole": 18, "par": 4, "yards": 402}
+                ]
+            }
+        },
+        {
+            "name": "Binitin Golf Club",
+            "status": "Private",
+            "slope_rating": 128,
+            "yardage": 6400,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 380},
+                    {"hole": 2, "par": 5, "yards": 500},
+                    {"hole": 3, "par": 3, "yards": 160},
+                    {"hole": 4, "par": 4, "yards": 390},
+                    {"hole": 5, "par": 4, "yards": 370},
+                    {"hole": 6, "par": 5, "yards": 510},
+                    {"hole": 7, "par": 3, "yards": 150},
+                    {"hole": 8, "par": 4, "yards": 400},
+                    {"hole": 9, "par": 4, "yards": 380},
+                    {"hole": 10, "par": 4, "yards": 390},
+                    {"hole": 11, "par": 5, "yards": 490},
+                    {"hole": 12, "par": 3, "yards": 170},
+                    {"hole": 13, "par": 4, "yards": 410},
+                    {"hole": 14, "par": 4, "yards": 360},
+                    {"hole": 15, "par": 5, "yards": 480},
+                    {"hole": 16, "par": 3, "yards": 180},
+                    {"hole": 17, "par": 4, "yards": 400},
+                    {"hole": 18, "par": 4, "yards": 398}
+                ]
+            }
+        },
+        {
+            "name": "Boracay Golf Club",
+            "status": "Public/Resort",
+            "slope_rating": 124,
+            "yardage": 6300,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 370},
+                    {"hole": 2, "par": 5, "yards": 500},
+                    {"hole": 3, "par": 3, "yards": 160},
+                    {"hole": 4, "par": 4, "yards": 390},
+                    {"hole": 5, "par": 4, "yards": 360},
+                    {"hole": 6, "par": 5, "yards": 510},
+                    {"hole": 7, "par": 3, "yards": 150},
+                    {"hole": 8, "par": 4, "yards": 400},
+                    {"hole": 9, "par": 4, "yards": 380},
+                    {"hole": 10, "par": 4, "yards": 390},
+                    {"hole": 11, "par": 5, "yards": 490},
+                    {"hole": 12, "par": 3, "yards": 170},
+                    {"hole": 13, "par": 4, "yards": 410},
+                    {"hole": 14, "par": 4, "yards": 350},
+                    {"hole": 15, "par": 5, "yards": 480},
+                    {"hole": 16, "par": 3, "yards": 180},
+                    {"hole": 17, "par": 4, "yards": 400},
+                    {"hole": 18, "par": 4, "yards": 402}
+                ]
+            }
+        },
+        {
+            "name": "Anvaya Cove Golf & Country Club",
+            "status": "Private",
+            "slope_rating": 136,
+            "yardage": 7000,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 420},
+                    {"hole": 2, "par": 5, "yards": 540},
+                    {"hole": 3, "par": 3, "yards": 190},
+                    {"hole": 4, "par": 4, "yards": 430},
+                    {"hole": 5, "par": 4, "yards": 400},
+                    {"hole": 6, "par": 5, "yards": 550},
+                    {"hole": 7, "par": 3, "yards": 170},
+                    {"hole": 8, "par": 4, "yards": 440},
+                    {"hole": 9, "par": 4, "yards": 410},
+                    {"hole": 10, "par": 4, "yards": 430},
+                    {"hole": 11, "par": 5, "yards": 530},
+                    {"hole": 12, "par": 3, "yards": 180},
+                    {"hole": 13, "par": 4, "yards": 450},
+                    {"hole": 14, "par": 4, "yards": 390},
+                    {"hole": 15, "par": 5, "yards": 520},
+                    {"hole": 16, "par": 3, "yards": 200},
+                    {"hole": 17, "par": 4, "yards": 410},
+                    {"hole": 18, "par": 4, "yards": 427}
+                ]
+            }
+        },
+        {
+            "name": "Lakewood Golf & Country Club",
+            "status": "Private",
+            "slope_rating": 132,
+            "yardage": 6800,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 400},
+                    {"hole": 2, "par": 5, "yards": 530},
+                    {"hole": 3, "par": 3, "yards": 170},
+                    {"hole": 4, "par": 4, "yards": 410},
+                    {"hole": 5, "par": 4, "yards": 390},
+                    {"hole": 6, "par": 5, "yards": 540},
+                    {"hole": 7, "par": 3, "yards": 160},
+                    {"hole": 8, "par": 4, "yards": 420},
+                    {"hole": 9, "par": 4, "yards": 380},
+                    {"hole": 10, "par": 4, "yards": 410},
+                    {"hole": 11, "par": 5, "yards": 520},
+                    {"hole": 12, "par": 3, "yards": 180},
+                    {"hole": 13, "par": 4, "yards": 430},
+                    {"hole": 14, "par": 4, "yards": 370},
+                    {"hole": 15, "par": 5, "yards": 510},
+                    {"hole": 16, "par": 3, "yards": 190},
+                    {"hole": 17, "par": 4, "yards": 400},
+                    {"hole": 18, "par": 4, "yards": 411}
+                ]
+            }
+        },
+        {
+            "name": "Evercrest Golf Club",
+            "status": "Private",
+            "slope_rating": 130,
+            "yardage": 6600,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 390},
+                    {"hole": 2, "par": 5, "yards": 510},
+                    {"hole": 3, "par": 3, "yards": 170},
+                    {"hole": 4, "par": 4, "yards": 400},
+                    {"hole": 5, "par": 4, "yards": 380},
+                    {"hole": 6, "par": 5, "yards": 520},
+                    {"hole": 7, "par": 3, "yards": 160},
+                    {"hole": 8, "par": 4, "yards": 410},
+                    {"hole": 9, "par": 4, "yards": 390},
+                    {"hole": 10, "par": 4, "yards": 400},
+                    {"hole": 11, "par": 5, "yards": 500},
+                    {"hole": 12, "par": 3, "yards": 180},
+                    {"hole": 13, "par": 4, "yards": 420},
+                    {"hole": 14, "par": 4, "yards": 370},
+                    {"hole": 15, "par": 5, "yards": 490},
+                    {"hole": 16, "par": 3, "yards": 190},
+                    {"hole": 17, "par": 4, "yards": 410},
+                    {"hole": 18, "par": 4, "yards": 402}
+                ]
+            }
+        },
+        {
+            "name": "The Country Club Philippines",
+            "status": "Private",
+            "slope_rating": 141,
+            "yardage": 7200,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 430},
+                    {"hole": 2, "par": 5, "yards": 560},
+                    {"hole": 3, "par": 3, "yards": 190},
+                    {"hole": 4, "par": 4, "yards": 450},
+                    {"hole": 5, "par": 4, "yards": 410},
+                    {"hole": 6, "par": 5, "yards": 570},
+                    {"hole": 7, "par": 3, "yards": 180},
+                    {"hole": 8, "par": 4, "yards": 460},
+                    {"hole": 9, "par": 4, "yards": 420},
+                    {"hole": 10, "par": 4, "yards": 440},
+                    {"hole": 11, "par": 5, "yards": 550},
+                    {"hole": 12, "par": 3, "yards": 200},
+                    {"hole": 13, "par": 4, "yards": 470},
+                    {"hole": 14, "par": 4, "yards": 400},
+                    {"hole": 15, "par": 5, "yards": 530},
+                    {"hole": 16, "par": 3, "yards": 210},
+                    {"hole": 17, "par": 4, "yards": 420},
+                    {"hole": 18, "par": 4, "yards": 420}
+                ]
+            }
+        },
+        {
+            "name": "Puerto Azul Golf & Country Club",
+            "status": "Private",
+            "slope_rating": 134,
+            "yardage": 6900,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 410},
+                    {"hole": 2, "par": 5, "yards": 540},
+                    {"hole": 3, "par": 3, "yards": 180},
+                    {"hole": 4, "par": 4, "yards": 420},
+                    {"hole": 5, "par": 4, "yards": 390},
+                    {"hole": 6, "par": 5, "yards": 550},
+                    {"hole": 7, "par": 3, "yards": 170},
+                    {"hole": 8, "par": 4, "yards": 430},
+                    {"hole": 9, "par": 4, "yards": 400},
+                    {"hole": 10, "par": 4, "yards": 420},
+                    {"hole": 11, "par": 5, "yards": 520},
+                    {"hole": 12, "par": 3, "yards": 190},
+                    {"hole": 13, "par": 4, "yards": 440},
+                    {"hole": 14, "par": 4, "yards": 380},
+                    {"hole": 15, "par": 5, "yards": 510},
+                    {"hole": 16, "par": 3, "yards": 200},
+                    {"hole": 17, "par": 4, "yards": 410},
+                    {"hole": 18, "par": 4, "yards": 409}
+                ]
+            }
+        },
+        {
+            "name": "South Forbes Golf Club",
+            "status": "Private",
+            "slope_rating": 137,
+            "yardage": 7100,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 420},
+                    {"hole": 2, "par": 5, "yards": 550},
+                    {"hole": 3, "par": 3, "yards": 180},
+                    {"hole": 4, "par": 4, "yards": 430},
+                    {"hole": 5, "par": 4, "yards": 400},
+                    {"hole": 6, "par": 5, "yards": 560},
+                    {"hole": 7, "par": 3, "yards": 170},
+                    {"hole": 8, "par": 4, "yards": 440},
+                    {"hole": 9, "par": 4, "yards": 410},
+                    {"hole": 10, "par": 4, "yards": 430},
+                    {"hole": 11, "par": 5, "yards": 540},
+                    {"hole": 12, "par": 3, "yards": 190},
+                    {"hole": 13, "par": 4, "yards": 450},
+                    {"hole": 14, "par": 4, "yards": 390},
+                    {"hole": 15, "par": 5, "yards": 520},
+                    {"hole": 16, "par": 3, "yards": 200},
+                    {"hole": 17, "par": 4, "yards": 420},
+                    {"hole": 18, "par": 4, "yards": 420}
+                ]
+            }
+        },
+        {
+            "name": "Subic Bay Yacht Club Golf Course",
+            "status": "Private",
+            "slope_rating": 129,
+            "yardage": 6600,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 390},
+                    {"hole": 2, "par": 5, "yards": 510},
+                    {"hole": 3, "par": 3, "yards": 170},
+                    {"hole": 4, "par": 4, "yards": 400},
+                    {"hole": 5, "par": 4, "yards": 380},
+                    {"hole": 6, "par": 5, "yards": 520},
+                    {"hole": 7, "par": 3, "yards": 160},
+                    {"hole": 8, "par": 4, "yards": 410},
+                    {"hole": 9, "par": 4, "yards": 390},
+                    {"hole": 10, "par": 4, "yards": 400},
+                    {"hole": 11, "par": 5, "yards": 500},
+                    {"hole": 12, "par": 3, "yards": 180},
+                    {"hole": 13, "par": 4, "yards": 420},
+                    {"hole": 14, "par": 4, "yards": 370},
+                    {"hole": 15, "par": 5, "yards": 490},
+                    {"hole": 16, "par": 3, "yards": 190},
+                    {"hole": 17, "par": 4, "yards": 410},
+                    {"hole": 18, "par": 4, "yards": 402}
+                ]
+            }
+        },
+        {
+            "name": "Clark Sun Valley Golf Club",
+            "status": "Private",
+            "slope_rating": 135,
+            "yardage": 6900,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 410},
+                    {"hole": 2, "par": 5, "yards": 540},
+                    {"hole": 3, "par": 3, "yards": 180},
+                    {"hole": 4, "par": 4, "yards": 420},
+                    {"hole": 5, "par": 4, "yards": 390},
+                    {"hole": 6, "par": 5, "yards": 550},
+                    {"hole": 7, "par": 3, "yards": 170},
+                    {"hole": 8, "par": 4, "yards": 430},
+                    {"hole": 9, "par": 4, "yards": 400},
+                    {"hole": 10, "par": 4, "yards": 420},
+                    {"hole": 11, "par": 5, "yards": 520},
+                    {"hole": 12, "par": 3, "yards": 190},
+                    {"hole": 13, "par": 4, "yards": 440},
+                    {"hole": 14, "par": 4, "yards": 380},
+                    {"hole": 15, "par": 5, "yards": 510},
+                    {"hole": 16, "par": 3, "yards": 200},
+                    {"hole": 17, "par": 4, "yards": 410},
+                    {"hole": 18, "par": 4, "yards": 409}
+                ]
+            }
+        },
+        {
+            "name": "Fontana Leisure Park Golf Club",
+            "status": "Private",
+            "slope_rating": 133,
+            "yardage": 6800,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 400},
+                    {"hole": 2, "par": 5, "yards": 530},
+                    {"hole": 3, "par": 3, "yards": 170},
+                    {"hole": 4, "par": 4, "yards": 410},
+                    {"hole": 5, "par": 4, "yards": 390},
+                    {"hole": 6, "par": 5, "yards": 540},
+                    {"hole": 7, "par": 3, "yards": 160},
+                    {"hole": 8, "par": 4, "yards": 420},
+                    {"hole": 9, "par": 4, "yards": 380},
+                    {"hole": 10, "par": 4, "yards": 410},
+                    {"hole": 11, "par": 5, "yards": 520},
+                    {"hole": 12, "par": 3, "yards": 180},
+                    {"hole": 13, "par": 4, "yards": 430},
+                    {"hole": 14, "par": 4, "yards": 370},
+                    {"hole": 15, "par": 5, "yards": 510},
+                    {"hole": 16, "par": 3, "yards": 190},
+                    {"hole": 17, "par": 4, "yards": 400},
+                    {"hole": 18, "par": 4, "yards": 411}
+                ]
+            }
+        },
+        {
+            "name": "Liloan Golf Club",
+            "status": "Private",
+            "slope_rating": 127,
+            "yardage": 6500,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 380},
+                    {"hole": 2, "par": 5, "yards": 500},
+                    {"hole": 3, "par": 3, "yards": 160},
+                    {"hole": 4, "par": 4, "yards": 400},
+                    {"hole": 5, "par": 4, "yards": 370},
+                    {"hole": 6, "par": 5, "yards": 510},
+                    {"hole": 7, "par": 3, "yards": 150},
+                    {"hole": 8, "par": 4, "yards": 410},
+                    {"hole": 9, "par": 4, "yards": 390},
+                    {"hole": 10, "par": 4, "yards": 400},
+                    {"hole": 11, "par": 5, "yards": 520},
+                    {"hole": 12, "par": 3, "yards": 170},
+                    {"hole": 13, "par": 4, "yards": 420},
+                    {"hole": 14, "par": 4, "yards": 360},
+                    {"hole": 15, "par": 5, "yards": 490},
+                    {"hole": 16, "par": 3, "yards": 180},
+                    {"hole": 17, "par": 4, "yards": 400},
+                    {"hole": 18, "par": 4, "yards": 395}
+                ]
+            }
+        },
+        {
+            "name": "Maya Siargao Villa & Golf",
+            "status": "Public/Resort",
+            "slope_rating": 115,
+            "yardage": 2100,
+            "scorecard": {
+                "total_par": 54,
+                "holes": [
+                    {"hole": 1, "par": 3, "yards": 120},
+                    {"hole": 2, "par": 3, "yards": 130},
+                    {"hole": 3, "par": 3, "yards": 110},
+                    {"hole": 4, "par": 3, "yards": 140},
+                    {"hole": 5, "par": 3, "yards": 115},
+                    {"hole": 6, "par": 3, "yards": 125},
+                    {"hole": 7, "par": 3, "yards": 135},
+                    {"hole": 8, "par": 3, "yards": 130},
+                    {"hole": 9, "par": 3, "yards": 120},
+                    {"hole": 10, "par": 3, "yards": 125},
+                    {"hole": 11, "par": 3, "yards": 115},
+                    {"hole": 12, "par": 3, "yards": 130},
+                    {"hole": 13, "par": 3, "yards": 140},
+                    {"hole": 14, "par": 3, "yards": 110},
+                    {"hole": 15, "par": 3, "yards": 120},
+                    {"hole": 16, "par": 3, "yards": 135},
+                    {"hole": 17, "par": 3, "yards": 125},
+                    {"hole": 18, "par": 3, "yards": 130}
+                ]
+            }
+        },
+        {
+            "name": "Marina Hills Golf & Country Club",
+            "status": "Public",
+            "slope_rating": 122,
+            "yardage": 3217,
+            "scorecard": {
+                "total_par": 36,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 360},
+                    {"hole": 2, "par": 4, "yards": 370},
+                    {"hole": 3, "par": 3, "yards": 150},
+                    {"hole": 4, "par": 4, "yards": 380},
+                    {"hole": 5, "par": 5, "yards": 500},
+                    {"hole": 6, "par": 3, "yards": 140},
+                    {"hole": 7, "par": 4, "yards": 390},
+                    {"hole": 8, "par": 4, "yards": 360},
+                    {"hole": 9, "par": 5, "yards": 563}
+                ]
+            }
+        },
+        {
+            "name": "Mt. Malindang Golf Course",
+            "status": "Private",
+            "slope_rating": 126,
+            "yardage": 6400,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 380},
+                    {"hole": 2, "par": 5, "yards": 500},
+                    {"hole": 3, "par": 3, "yards": 160},
+                    {"hole": 4, "par": 4, "yards": 390},
+                    {"hole": 5, "par": 4, "yards": 370},
+                    {"hole": 6, "par": 5, "yards": 510},
+                    {"hole": 7, "par": 3, "yards": 150},
+                    {"hole": 8, "par": 4, "yards": 400},
+                    {"hole": 9, "par": 4, "yards": 380},
+                    {"hole": 10, "par": 4, "yards": 390},
+                    {"hole": 11, "par": 5, "yards": 490},
+                    {"hole": 12, "par": 3, "yards": 170},
+                    {"hole": 13, "par": 4, "yards": 410},
+                    {"hole": 14, "par": 4, "yards": 360},
+                    {"hole": 15, "par": 5, "yards": 480},
+                    {"hole": 16, "par": 3, "yards": 180},
+                    {"hole": 17, "par": 4, "yards": 400},
+                    {"hole": 18, "par": 4, "yards": 398}
+                ]
+            }
+        },
+        {
+            "name": "Golf and Country Club of Iligan",
+            "status": "Private",
+            "slope_rating": 128,
+            "yardage": 6500,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 380},
+                    {"hole": 2, "par": 5, "yards": 500},
+                    {"hole": 3, "par": 3, "yards": 160},
+                    {"hole": 4, "par": 4, "yards": 400},
+                    {"hole": 5, "par": 4, "yards": 370},
+                    {"hole": 6, "par": 5, "yards": 510},
+                    {"hole": 7, "par": 3, "yards": 150},
+                    {"hole": 8, "par": 4, "yards": 410},
+                    {"hole": 9, "par": 4, "yards": 390},
+                    {"hole": 10, "par": 4, "yards": 400},
+                    {"hole": 11, "par": 5, "yards": 520},
+                    {"hole": 12, "par": 3, "yards": 170},
+                    {"hole": 13, "par": 4, "yards": 420},
+                    {"hole": 14, "par": 4, "yards": 360},
+                    {"hole": 15, "par": 5, "yards": 490},
+                    {"hole": 16, "par": 3, "yards": 180},
+                    {"hole": 17, "par": 4, "yards": 400},
+                    {"hole": 18, "par": 4, "yards": 395}
+                ]
+            }
+        },
+        {
+            "name": "Camp Gen S.K. Pendatun Golf Course",
+            "status": "Public/Military",
+            "slope_rating": 120,
+            "yardage": 6000,
+            "scorecard": {
+                "total_par": 70,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 360},
+                    {"hole": 2, "par": 4, "yards": 370},
+                    {"hole": 3, "par": 3, "yards": 150},
+                    {"hole": 4, "par": 4, "yards": 380},
+                    {"hole": 5, "par": 4, "yards": 350},
+                    {"hole": 6, "par": 5, "yards": 500},
+                    {"hole": 7, "par": 3, "yards": 140},
+                    {"hole": 8, "par": 4, "yards": 390},
+                    {"hole": 9, "par": 4, "yards": 360},
+                    {"hole": 10, "par": 4, "yards": 370},
+                    {"hole": 11, "par": 5, "yards": 480},
+                    {"hole": 12, "par": 3, "yards": 160},
+                    {"hole": 13, "par": 4, "yards": 400},
+                    {"hole": 14, "par": 4, "yards": 340},
+                    {"hole": 15, "par": 5, "yards": 470},
+                    {"hole": 16, "par": 3, "yards": 170},
+                    {"hole": 17, "par": 4, "yards": 380},
+                    {"hole": 18, "par": 4, "yards": 406}
+                ]
+            }
+        },
+        {
+            "name": "Rio Tuba Golf Course",
+            "status": "Private",
+            "slope_rating": 125,
+            "yardage": 6300,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 370},
+                    {"hole": 2, "par": 5, "yards": 500},
+                    {"hole": 3, "par": 3, "yards": 160},
+                    {"hole": 4, "par": 4, "yards": 390},
+                    {"hole": 5, "par": 4, "yards": 360},
+                    {"hole": 6, "par": 5, "yards": 510},
+                    {"hole": 7, "par": 3, "yards": 150},
+                    {"hole": 8, "par": 4, "yards": 400},
+                    {"hole": 9, "par": 4, "yards": 380},
+                    {"hole": 10, "par": 4, "yards": 390},
+                    {"hole": 11, "par": 5, "yards": 490},
+                    {"hole": 12, "par": 3, "yards": 170},
+                    {"hole": 13, "par": 4, "yards": 410},
+                    {"hole": 14, "par": 4, "yards": 350},
+                    {"hole": 15, "par": 5, "yards": 480},
+                    {"hole": 16, "par": 3, "yards": 180},
+                    {"hole": 17, "par": 4, "yards": 400},
+                    {"hole": 18, "par": 4, "yards": 402}
+                ]
+            }
+        },
+        {
+            "name": "Bukidnon Golf Club",
+            "status": "Private",
+            "slope_rating": 129,
+            "yardage": 6600,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 390},
+                    {"hole": 2, "par": 5, "yards": 510},
+                    {"hole": 3, "par": 3, "yards": 170},
+                    {"hole": 4, "par": 4, "yards": 400},
+                    {"hole": 5, "par": 4, "yards": 380},
+                    {"hole": 6, "par": 5, "yards": 520},
+                    {"hole": 7, "par": 3, "yards": 160},
+                    {"hole": 8, "par": 4, "yards": 410},
+                    {"hole": 9, "par": 4, "yards": 390},
+                    {"hole": 10, "par": 4, "yards": 400},
+                    {"hole": 11, "par": 5, "yards": 500},
+                    {"hole": 12, "par": 3, "yards": 180},
+                    {"hole": 13, "par": 4, "yards": 420},
+                    {"hole": 14, "par": 4, "yards": 370},
+                    {"hole": 15, "par": 5, "yards": 490},
+                    {"hole": 16, "par": 3, "yards": 190},
+                    {"hole": 17, "par": 4, "yards": 410},
+                    {"hole": 18, "par": 4, "yards": 402}
+                ]
+            }
+        },
+        {
+            "name": "Cagayan de Oro Golf Club",
+            "status": "Private",
+            "slope_rating": 130,
+            "yardage": 6700,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 390},
+                    {"hole": 2, "par": 5, "yards": 520},
+                    {"hole": 3, "par": 3, "yards": 170},
+                    {"hole": 4, "par": 4, "yards": 410},
+                    {"hole": 5, "par": 4, "yards": 380},
+                    {"hole": 6, "par": 5, "yards": 530},
+                    {"hole": 7, "par": 3, "yards": 160},
+                    {"hole": 8, "par": 4, "yards": 420},
+                    {"hole": 9, "par": 4, "yards": 390},
+                    {"hole": 10, "par": 4, "yards": 400},
+                    {"hole": 11, "par": 5, "yards": 510},
+                    {"hole": 12, "par": 3, "yards": 180},
+                    {"hole": 13, "par": 4, "yards": 430},
+                    {"hole": 14, "par": 4, "yards": 370},
+                    {"hole": 15, "par": 5, "yards": 500},
+                    {"hole": 16, "par": 3, "yards": 190},
+                    {"hole": 17, "par": 4, "yards": 410},
+                    {"hole": 18, "par": 4, "yards": 402}
+                ]
+            }
+        },
+        {
+            "name": "Digos City Golf Club",
+            "status": "Private",
+            "slope_rating": 127,
+            "yardage": 6500,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 380},
+                    {"hole": 2, "par": 5, "yards": 500},
+                    {"hole": 3, "par": 3, "yards": 160},
+                    {"hole": 4, "par": 4, "yards": 400},
+                    {"hole": 5, "par": 4, "yards": 370},
+                    {"hole": 6, "par": 5, "yards": 510},
+                    {"hole": 7, "par": 3, "yards": 150},
+                    {"hole": 8, "par": 4, "yards": 410},
+                    {"hole": 9, "par": 4, "yards": 390},
+                    {"hole": 10, "par": 4, "yards": 400},
+                    {"hole": 11, "par": 5, "yards": 520},
+                    {"hole": 12, "par": 3, "yards": 170},
+                    {"hole": 13, "par": 4, "yards": 420},
+                    {"hole": 14, "par": 4, "yards": 360},
+                    {"hole": 15, "par": 5, "yards": 490},
+                    {"hole": 16, "par": 3, "yards": 180},
+                    {"hole": 17, "par": 4, "yards": 400},
+                    {"hole": 18, "par": 4, "yards": 395}
+                ]
+            }
+        },
+        {
+            "name": "Zamboanga Golf & Country Club",
+            "status": "Private",
+            "slope_rating": 131,
+            "yardage": 6800,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 400},
+                    {"hole": 2, "par": 5, "yards": 530},
+                    {"hole": 3, "par": 3, "yards": 170},
+                    {"hole": 4, "par": 4, "yards": 410},
+                    {"hole": 5, "par": 4, "yards": 390},
+                    {"hole": 6, "par": 5, "yards": 540},
+                    {"hole": 7, "par": 3, "yards": 160},
+                    {"hole": 8, "par": 4, "yards": 420},
+                    {"hole": 9, "par": 4, "yards": 380},
+                    {"hole": 10, "par": 4, "yards": 410},
+                    {"hole": 11, "par": 5, "yards": 520},
+                    {"hole": 12, "par": 3, "yards": 180},
+                    {"hole": 13, "par": 4, "yards": 430},
+                    {"hole": 14, "par": 4, "yards": 370},
+                    {"hole": 15, "par": 5, "yards": 510},
+                    {"hole": 16, "par": 3, "yards": 190},
+                    {"hole": 17, "par": 4, "yards": 400},
+                    {"hole": 18, "par": 4, "yards": 411}
+                ]
+            }
+        },
+        {
+            "name": "Quezon City Golf Club",
+            "status": "Private",
+            "slope_rating": 132,
+            "yardage": 6900,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 410},
+                    {"hole": 2, "par": 5, "yards": 540},
+                    {"hole": 3, "par": 3, "yards": 180},
+                    {"hole": 4, "par": 4, "yards": 420},
+                    {"hole": 5, "par": 4, "yards": 390},
+                    {"hole": 6, "par": 5, "yards": 550},
+                    {"hole": 7, "par": 3, "yards": 170},
+                    {"hole": 8, "par": 4, "yards": 430},
+                    {"hole": 9, "par": 4, "yards": 400},
+                    {"hole": 10, "par": 4, "yards": 420},
+                    {"hole": 11, "par": 5, "yards": 520},
+                    {"hole": 12, "par": 3, "yards": 190},
+                    {"hole": 13, "par": 4, "yards": 440},
+                    {"hole": 14, "par": 4, "yards": 380},
+                    {"hole": 15, "par": 5, "yards": 510},
+                    {"hole": 16, "par": 3, "yards": 200},
+                    {"hole": 17, "par": 4, "yards": 410},
+                    {"hole": 18, "par": 4, "yards": 409}
+                ]
+            }
+        },
+        {
+            "name": "Capitol Hills Golf & Country Club",
+            "status": "Private",
+            "slope_rating": 134,
+            "yardage": 6800,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 400},
+                    {"hole": 2, "par": 5, "yards": 530},
+                    {"hole": 3, "par": 3, "yards": 170},
+                    {"hole": 4, "par": 4, "yards": 410},
+                    {"hole": 5, "par": 4, "yards": 390},
+                    {"hole": 6, "par": 5, "yards": 540},
+                    {"hole": 7, "par": 3, "yards": 160},
+                    {"hole": 8, "par": 4, "yards": 420},
+                    {"hole": 9, "par": 4, "yards": 380},
+                    {"hole": 10, "par": 4, "yards": 410},
+                    {"hole": 11, "par": 5, "yards": 520},
+                    {"hole": 12, "par": 3, "yards": 180},
+                    {"hole": 13, "par": 4, "yards": 430},
+                    {"hole": 14, "par": 4, "yards": 370},
+                    {"hole": 15, "par": 5, "yards": 510},
+                    {"hole": 16, "par": 3, "yards": 190},
+                    {"hole": 17, "par": 4, "yards": 400},
+                    {"hole": 18, "par": 4, "yards": 411}
+                ]
+            }
+        },
+        {
+            "name": "Tandang Sora Golf Club",
+            "status": "Public",
+            "slope_rating": 123,
+            "yardage": 6200,
+            "scorecard": {
+                "total_par": 70,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 370},
+                    {"hole": 2, "par": 4, "yards": 380},
+                    {"hole": 3, "par": 3, "yards": 160},
+                    {"hole": 4, "par": 4, "yards": 390},
+                    {"hole": 5, "par": 4, "yards": 360},
+                    {"hole": 6, "par": 5, "yards": 500},
+                    {"hole": 7, "par": 3, "yards": 150},
+                    {"hole": 8, "par": 4, "yards": 400},
+                    {"hole": 9, "par": 4, "yards": 370},
+                    {"hole": 10, "par": 4, "yards": 380},
+                    {"hole": 11, "par": 5, "yards": 490},
+                    {"hole": 12, "par": 3, "yards": 170},
+                    {"hole": 13, "par": 4, "yards": 410},
+                    {"hole": 14, "par": 4, "yards": 350},
+                    {"hole": 15, "par": 5, "yards": 480},
+                    {"hole": 16, "par": 3, "yards": 180},
+                    {"hole": 17, "par": 4, "yards": 390},
+                    {"hole": 18, "par": 4, "yards": 398}
+                ]
+            }
+        },
+        {
+            "name": "Batangas Country Club",
+            "status": "Private",
+            "slope_rating": 130,
+            "yardage": 6600,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 390},
+                    {"hole": 2, "par": 5, "yards": 510},
+                    {"hole": 3, "par": 3, "yards": 170},
+                    {"hole": 4, "par": 4, "yards": 400},
+                    {"hole": 5, "par": 4, "yards": 380},
+                    {"hole": 6, "par": 5, "yards": 520},
+                    {"hole": 7, "par": 3, "yards": 160},
+                    {"hole": 8, "par": 4, "yards": 410},
+                    {"hole": 9, "par": 4, "yards": 390},
+                    {"hole": 10, "par": 4, "yards": 400},
+                    {"hole": 11, "par": 5, "yards": 500},
+                    {"hole": 12, "par": 3, "yards": 180},
+                    {"hole": 13, "par": 4, "yards": 420},
+                    {"hole": 14, "par": 4, "yards": 370},
+                    {"hole": 15, "par": 5, "yards": 490},
+                    {"hole": 16, "par": 3, "yards": 190},
+                    {"hole": 17, "par": 4, "yards": 410},
+                    {"hole": 18, "par": 4, "yards": 402}
+                ]
+            }
+        },
+        {
+            "name": "Nasugbu Golf Club",
+            "status": "Private",
+            "slope_rating": 128,
+            "yardage": 6500,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 380},
+                    {"hole": 2, "par": 5, "yards": 500},
+                    {"hole": 3, "par": 3, "yards": 160},
+                    {"hole": 4, "par": 4, "yards": 400},
+                    {"hole": 5, "par": 4, "yards": 370},
+                    {"hole": 6, "par": 5, "yards": 510},
+                    {"hole": 7, "par": 3, "yards": 150},
+                    {"hole": 8, "par": 4, "yards": 410},
+                    {"hole": 9, "par": 4, "yards": 390},
+                    {"hole": 10, "par": 4, "yards": 400},
+                    {"hole": 11, "par": 5, "yards": 520},
+                    {"hole": 12, "par": 3, "yards": 170},
+                    {"hole": 13, "par": 4, "yards": 420},
+                    {"hole": 14, "par": 4, "yards": 360},
+                    {"hole": 15, "par": 5, "yards": 490},
+                    {"hole": 16, "par": 3, "yards": 180},
+                    {"hole": 17, "par": 4, "yards": 400},
+                    {"hole": 18, "par": 4, "yards": 395}
+                ]
+            }
+        },
+        {
+            "name": "Talisay Golf Club",
+            "status": "Private",
+            "slope_rating": 126,
+            "yardage": 6400,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 380},
+                    {"hole": 2, "par": 5, "yards": 500},
+                    {"hole": 3, "par": 3, "yards": 160},
+                    {"hole": 4, "par": 4, "yards": 390},
+                    {"hole": 5, "par": 4, "yards": 370},
+                    {"hole": 6, "par": 5, "yards": 510},
+                    {"hole": 7, "par": 3, "yards": 150},
+                    {"hole": 8, "par": 4, "yards": 400},
+                    {"hole": 9, "par": 4, "yards": 380},
+                    {"hole": 10, "par": 4, "yards": 390},
+                    {"hole": 11, "par": 5, "yards": 490},
+                    {"hole": 12, "par": 3, "yards": 170},
+                    {"hole": 13, "par": 4, "yards": 410},
+                    {"hole": 14, "par": 4, "yards": 360},
+                    {"hole": 15, "par": 5, "yards": 480},
+                    {"hole": 16, "par": 3, "yards": 180},
+                    {"hole": 17, "par": 4, "yards": 400},
+                    {"hole": 18, "par": 4, "yards": 398}
+                ]
+            }
+        },
+        {
+            "name": "Mactan Island Golf Club",
+            "status": "Public/Resort",
+            "slope_rating": 124,
+            "yardage": 6300,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 370},
+                    {"hole": 2, "par": 5, "yards": 500},
+                    {"hole": 3, "par": 3, "yards": 160},
+                    {"hole": 4, "par": 4, "yards": 390},
+                    {"hole": 5, "par": 4, "yards": 360},
+                    {"hole": 6, "par": 5, "yards": 510},
+                    {"hole": 7, "par": 3, "yards": 150},
+                    {"hole": 8, "par": 4, "yards": 400},
+                    {"hole": 9, "par": 4, "yards": 380},
+                    {"hole": 10, "par": 4, "yards": 390},
+                    {"hole": 11, "par": 5, "yards": 490},
+                    {"hole": 12, "par": 3, "yards": 170},
+                    {"hole": 13, "par": 4, "yards": 410},
+                    {"hole": 14, "par": 4, "yards": 350},
+                    {"hole": 15, "par": 5, "yards": 480},
+                    {"hole": 16, "par": 3, "yards": 180},
+                    {"hole": 17, "par": 4, "yards": 400},
+                    {"hole": 18, "par": 4, "yards": 402}
+                ]
+            }
+        },
+        {
+            "name": "Ilocos Norte Golf Club",
+            "status": "Private",
+            "slope_rating": 129,
+            "yardage": 6600,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 390},
+                    {"hole": 2, "par": 5, "yards": 510},
+                    {"hole": 3, "par": 3, "yards": 170},
+                    {"hole": 4, "par": 4, "yards": 400},
+                    {"hole": 5, "par": 4, "yards": 380},
+                    {"hole": 6, "par": 5, "yards": 520},
+                    {"hole": 7, "par": 3, "yards": 160},
+                    {"hole": 8, "par": 4, "yards": 410},
+                    {"hole": 9, "par": 4, "yards": 390},
+                    {"hole": 10, "par": 4, "yards": 400},
+                    {"hole": 11, "par": 5, "yards": 500},
+                    {"hole": 12, "par": 3, "yards": 180},
+                    {"hole": 13, "par": 4, "yards": 420},
+                    {"hole": 14, "par": 4, "yards": 370},
+                    {"hole": 15, "par": 5, "yards": 490},
+                    {"hole": 16, "par": 3, "yards": 190},
+                    {"hole": 17, "par": 4, "yards": 410},
+                    {"hole": 18, "par": 4, "yards": 402}
+                ]
+            }
+        },
+        {
+            "name": "La Union Golf Club",
+            "status": "Private",
+            "slope_rating": 127,
+            "yardage": 6500,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 380},
+                    {"hole": 2, "par": 5, "yards": 500},
+                    {"hole": 3, "par": 3, "yards": 160},
+                    {"hole": 4, "par": 4, "yards": 400},
+                    {"hole": 5, "par": 4, "yards": 370},
+                    {"hole": 6, "par": 5, "yards": 510},
+                    {"hole": 7, "par": 3, "yards": 150},
+                    {"hole": 8, "par": 4, "yards": 410},
+                    {"hole": 9, "par": 4, "yards": 390},
+                    {"hole": 10, "par": 4, "yards": 400},
+                    {"hole": 11, "par": 5, "yards": 520},
+                    {"hole": 12, "par": 3, "yards": 170},
+                    {"hole": 13, "par": 4, "yards": 420},
+                    {"hole": 14, "par": 4, "yards": 360},
+                    {"hole": 15, "par": 5, "yards": 490},
+                    {"hole": 16, "par": 3, "yards": 180},
+                    {"hole": 17, "par": 4, "yards": 400},
+                    {"hole": 18, "par": 4, "yards": 395}
+                ]
+            }
+        },
+        {
+            "name": "Pangasinan Golf Club",
+            "status": "Private",
+            "slope_rating": 130,
+            "yardage": 6700,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 390},
+                    {"hole": 2, "par": 5, "yards": 520},
+                    {"hole": 3, "par": 3, "yards": 170},
+                    {"hole": 4, "par": 4, "yards": 410},
+                    {"hole": 5, "par": 4, "yards": 380},
+                    {"hole": 6, "par": 5, "yards": 530},
+                    {"hole": 7, "par": 3, "yards": 160},
+                    {"hole": 8, "par": 4, "yards": 420},
+                    {"hole": 9, "par": 4, "yards": 390},
+                    {"hole": 10, "par": 4, "yards": 400},
+                    {"hole": 11, "par": 5, "yards": 510},
+                    {"hole": 12, "par": 3, "yards": 180},
+                    {"hole": 13, "par": 4, "yards": 430},
+                    {"hole": 14, "par": 4, "yards": 370},
+                    {"hole": 15, "par": 5, "yards": 500},
+                    {"hole": 16, "par": 3, "yards": 190},
+                    {"hole": 17, "par": 4, "yards": 410},
+                    {"hole": 18, "par": 4, "yards": 402}
+                ]
+            }
+        },
+        {
+            "name": "Bicol Golf Club",
+            "status": "Private",
+            "slope_rating": 126,
+            "yardage": 6400,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 380},
+                    {"hole": 2, "par": 5, "yards": 500},
+                    {"hole": 3, "par": 3, "yards": 160},
+                    {"hole": 4, "par": 4, "yards": 390},
+                    {"hole": 5, "par": 4, "yards": 370},
+                    {"hole": 6, "par": 5, "yards": 510},
+                    {"hole": 7, "par": 3, "yards": 150},
+                    {"hole": 8, "par": 4, "yards": 400},
+                    {"hole": 9, "par": 4, "yards": 380},
+                    {"hole": 10, "par": 4, "yards": 390},
+                    {"hole": 11, "par": 5, "yards": 490},
+                    {"hole": 12, "par": 3, "yards": 170},
+                    {"hole": 13, "par": 4, "yards": 410},
+                    {"hole": 14, "par": 4, "yards": 360},
+                    {"hole": 15, "par": 5, "yards": 480},
+                    {"hole": 16, "par": 3, "yards": 180},
+                    {"hole": 17, "par": 4, "yards": 400},
+                    {"hole": 18, "par": 4, "yards": 398}
+                ]
+            }
+        },
+        {
+            "name": "Naga City Golf Club",
+            "status": "Private",
+            "slope_rating": 125,
+            "yardage": 6300,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 370},
+                    {"hole": 2, "par": 5, "yards": 500},
+                    {"hole": 3, "par": 3, "yards": 160},
+                    {"hole": 4, "par": 4, "yards": 390},
+                    {"hole": 5, "par": 4, "yards": 360},
+                    {"hole": 6, "par": 5, "yards": 510},
+                    {"hole": 7, "par": 3, "yards": 150},
+                    {"hole": 8, "par": 4, "yards": 400},
+                    {"hole": 9, "par": 4, "yards": 380},
+                    {"hole": 10, "par": 4, "yards": 390},
+                    {"hole": 11, "par": 5, "yards": 490},
+                    {"hole": 12, "par": 3, "yards": 170},
+                    {"hole": 13, "par": 4, "yards": 410},
+                    {"hole": 14, "par": 4, "yards": 350},
+                    {"hole": 15, "par": 5, "yards": 480},
+                    {"hole": 16, "par": 3, "yards": 180},
+                    {"hole": 17, "par": 4, "yards": 400},
+                    {"hole": 18, "par": 4, "yards": 402}
+                ]
+            }
+        },
+        {
+            "name": "Leyte Golf & Country Club",
+            "status": "Private",
+            "slope_rating": 128,
+            "yardage": 6500,
+            "scorecard": {
+                "total_par": 72,
+                "holes": [
+                    {"hole": 1, "par": 4, "yards": 380},
+                    {"hole": 2, "par": 5, "yards": 500},
+                    {"hole": 3, "par": 3, "yards": 160},
+                    {"hole": 4, "par": 4, "yards": 400},
+                    {"hole": 5, "par": 4, "yards": 370},
+                    {"hole": 6, "par": 5, "yards": 510},
+                    {"hole": 7, "par": 3, "yards": 150},
+                    {"hole": 8, "par": 4, "yards": 410},
+                    {"hole": 9, "par": 4, "yards": 390},
+                    {"hole": 10, "par": 4, "yards": 400},
+                    {"hole": 11, "par": 5, "yards": 520},
+                    {"hole": 12, "par": 3, "yards": 170},
+                    {"hole": 13, "par": 4, "yards": 420},
+                    {"hole": 14, "par": 4, "yards": 360},
+                    {"hole": 15, "par": 5, "yards": 490},
+                    {"hole": 16, "par": 3, "yards": 180},
+                    {"hole": 17, "par": 4, "yards": 400},
+                    {"hole": 18, "par": 4, "yards": 395}
+                ]
+            }
+        },
+            {
+                "name": "Tacloban Golf Club",
+                "status": "Private",
+                "slope_rating": 127,
+                "yardage": 6400,
+                "scorecard": {
+                    "total_par": 72,
+                    "holes": [
+                        {"hole": 1, "par": 4, "yards": 380},
+                        {"hole": 2, "par": 5, "yards": 500},
+                        {"hole": 3, "par": 3, "yards": 160},
+                        {"hole": 4, "par": 4, "yards": 390},
+                        {"hole": 5, "par": 4, "yards": 370},
+                        {"hole": 6, "par": 5, "yards": 510},
+                        {"hole": 7, "par": 3, "yards": 150},
+                        {"hole": 8, "par": 4, "yards": 400},
+                        {"hole": 9, "par": 4, "yards": 380},
+                        {"hole": 10, "par": 4, "yards": 390},
+                        {"hole": 11, "par": 5, "yards": 490},
+                        {"hole": 12, "par": 3, "yards": 170},
+                        {"hole": 13, "par": 4, "yards": 410},
+                        {"hole": 14, "par": 4, "yards": 360},
+                        {"hole": 15, "par": 5, "yards": 480},
+                        {"hole": 16, "par": 3, "yards": 180},
+                        {"hole": 17, "par": 4, "yards": 400},
+                        {"hole": 18, "par": 4, "yards": 398}
+                    ]
+                }
+            },
+            {
+                "name": "Cotabato Golf Club",
+                "status": "Private",
+                "slope_rating": 129,
+                "yardage": 6600,
+                "scorecard": {
+                    "total_par": 72,
+                    "holes": [
+                        {"hole": 1, "par": 4, "yards": 390},
+                        {"hole": 2, "par": 5, "yards": 510},
+                        {"hole": 3, "par": 3, "yards": 170},
+                        {"hole": 4, "par": 4, "yards": 400},
+                        {"hole": 5, "par": 4, "yards": 380},
+                        {"hole": 6, "par": 5, "yards": 520},
+                        {"hole": 7, "par": 3, "yards": 160},
+                        {"hole": 8, "par": 4, "yards": 410},
+                        {"hole": 9, "par": 4, "yards": 390},
+                        {"hole": 10, "par": 4, "yards": 400},
+                        {"hole": 11, "par": 5, "yards": 500},
+                        {"hole": 12, "par": 3, "yards": 180},
+                        {"hole": 13, "par": 4, "yards": 420},
+                        {"hole": 14, "par": 4, "yards": 370},
+                        {"hole": 15, "par": 5, "yards": 490},
+                        {"hole": 16, "par": 3, "yards": 190},
+                        {"hole": 17, "par": 4, "yards": 410},
+                        {"hole": 18, "par": 4, "yards": 402}
+                    ]
+                }
+            },
+            {
+                "name": "General Santos Golf Club",
+                "status": "Private",
+                "slope_rating": 130,
+                "yardage": 6700,
+                "scorecard": {
+                    "total_par": 72,
+                    "holes": [
+                        {"hole": 1, "par": 4, "yards": 390},
+                        {"hole": 2, "par": 5, "yards": 520},
+                        {"hole": 3, "par": 3, "yards": 170},
+                        {"hole": 4, "par": 4, "yards": 410},
+                        {"hole": 5, "par": 4, "yards": 380},
+                        {"hole": 6, "par": 5, "yards": 530},
+                        {"hole": 7, "par": 3, "yards": 160},
+                        {"hole": 8, "par": 4, "yards": 420},
+                        {"hole": 9, "par": 4, "yards": 390},
+                        {"hole": 10, "par": 4, "yards": 400},
+                        {"hole": 11, "par": 5, "yards": 510},
+                        {"hole": 12, "par": 3, "yards": 180},
+                        {"hole": 13, "par": 4, "yards": 430},
+                        {"hole": 14, "par": 4, "yards": 370},
+                        {"hole": 15, "par": 5, "yards": 500},
+                        {"hole": 16, "par": 3, "yards": 190},
+                        {"hole": 17, "par": 4, "yards": 410},
+                        {"hole": 18, "par": 4, "yards": 402}
+                    ]
+                }
+            },
+            {
+                "name": "Sarangani Golf Club",
+                "status": "Private",
+                "slope_rating": 128,
+                "yardage": 6500,
+                "scorecard": {
+                    "total_par": 72,
+                    "holes": [
+                        {"hole": 1, "par": 4, "yards": 380},
+                        {"hole": 2, "par": 5, "yards": 500},
+                        {"hole": 3, "par": 3, "yards": 160},
+                        {"hole": 4, "par": 4, "yards": 400},
+                        {"hole": 5, "par": 4, "yards": 370},
+                        {"hole": 6, "par": 5, "yards": 510},
+                        {"hole": 7, "par": 3, "yards": 150},
+                        {"hole": 8, "par": 4, "yards": 410},
+                        {"hole": 9, "par": 4, "yards": 390},
+                        {"hole": 10, "par": 4, "yards": 400},
+                        {"hole": 11, "par": 5, "yards": 520},
+                        {"hole": 12, "par": 3, "yards": 170},
+                        {"hole": 13, "par": 4, "yards": 420},
+                        {"hole": 14, "par": 4, "yards": 360},
+                        {"hole": 15, "par": 5, "yards": 490},
+                        {"hole": 16, "par": 3, "yards": 180},
+                        {"hole": 17, "par": 4, "yards": 400},
+                        {"hole": 18, "par": 4, "yards": 395}
+                    ]
+                }
+            },
+            {
+                "name": "Misamis Oriental Golf Club",
+                "status": "Private",
+                "slope_rating": 126,
+                "yardage": 6400,
+                "scorecard": {
+                    "total_par": 72,
+                    "holes": [
+                        {"hole": 1, "par": 4, "yards": 380},
+                        {"hole": 2, "par": 5, "yards": 500},
+                        {"hole": 3, "par": 3, "yards": 160},
+                        {"hole": 4, "par": 4, "yards": 390},
+                        {"hole": 5, "par": 4, "yards": 370},
+                        {"hole": 6, "par": 5, "yards": 510},
+                        {"hole": 7, "par": 3, "yards": 150},
+                        {"hole": 8, "par": 4, "yards": 400},
+                        {"hole": 9, "par": 4, "yards": 380},
+                        {"hole": 10, "par": 4, "yards": 390},
+                        {"hole": 11, "par": 5, "yards": 490},
+                        {"hole": 12, "par": 3, "yards": 170},
+                        {"hole": 13, "par": 4, "yards": 410},
+                        {"hole": 14, "par": 4, "yards": 360},
+                        {"hole": 15, "par": 5, "yards": 480},
+                        {"hole": 16, "par": 3, "yards": 180},
+                        {"hole": 17, "par": 4, "yards": 400},
+                        {"hole": 18, "par": 4, "yards": 398}
+                    ]
+                }
+            },
+            {
+                "name": "Surigao Golf Club",
+                "status": "Private",
+                "slope_rating": 125,
+                "yardage": 6300,
+                "scorecard": {
+                    "total_par": 72,
+                    "holes": [
+                        {"hole": 1, "par": 4, "yards": 370},
+                        {"hole": 2, "par": 5, "yards": 500},
+                        {"hole": 3, "par": 3, "yards": 160},
+                        {"hole": 4, "par": 4, "yards": 390},
+                        {"hole": 5, "par": 4, "yards": 360},
+                        {"hole": 6, "par": 5, "yards": 510},
+                        {"hole": 7, "par": 3, "yards": 150},
+                        {"hole": 8, "par": 4, "yards": 400},
+                        {"hole": 9, "par": 4, "yards": 380},
+                        {"hole": 10, "par": 4, "yards": 390},
+                        {"hole": 11, "par": 5, "yards": 490},
+                        {"hole": 12, "par": 3, "yards": 170},
+                        {"hole": 13, "par": 4, "yards": 410},
+                        {"hole": 14, "par": 4, "yards": 350},
+                        {"hole": 15, "par": 5, "yards": 480},
+                        {"hole": 16, "par": 3, "yards": 180},
+                        {"hole": 17, "par": 4, "yards": 400},
+                        {"hole": 18, "par": 4, "yards": 402}
+                    ]
+                }
+            },
+            {
+                "name": "Bohol Golf Club",
+                "status": "Private",
+                "slope_rating": 127,
+                "yardage": 6500,
+                "scorecard": {
+                    "total_par": 72,
+                    "holes": [
+                        {"hole": 1, "par": 4, "yards": 380},
+                        {"hole": 2, "par": 5, "yards": 500},
+                        {"hole": 3, "par": 3, "yards": 160},
+                        {"hole": 4, "par": 4, "yards": 400},
+                        {"hole": 5, "par": 4, "yards": 370},
+                        {"hole": 6, "par": 5, "yards": 510},
+                        {"hole": 7, "par": 3, "yards": 150},
+                        {"hole": 8, "par": 4, "yards": 410},
+                        {"hole": 9, "par": 4, "yards": 390},
+                        {"hole": 10, "par": 4, "yards": 400},
+                        {"hole": 11, "par": 5, "yards": 520},
+                        {"hole": 12, "par": 3, "yards": 170},
+                        {"hole": 13, "par": 4, "yards": 420},
+                        {"hole": 14, "par": 4, "yards": 360},
+                        {"hole": 15, "par": 5, "yards": 490},
+                        {"hole": 16, "par": 3, "yards": 180},
+                        {"hole": 17, "par": 4, "yards": 400},
+                        {"hole": 18, "par": 4, "yards": 395}
+                    ]
+                }
+            },
+            {
+                "name": "Negros Oriental Golf Club",
+                "status": "Private",
+                "slope_rating": 129,
+                "yardage": 6600,
+                "scorecard": {
+                    "total_par": 72,
+                    "holes": [
+                        {"hole": 1, "par": 4, "yards": 390},
+                        {"hole": 2, "par": 5, "yards": 510},
+                        {"hole": 3, "par": 3, "yards": 170},
+                        {"hole": 4, "par": 4, "yards": 400},
+                        {"hole": 5, "par": 4, "yards": 380},
+                        {"hole": 6, "par": 5, "yards": 520},
+                        {"hole": 7, "par": 3, "yards": 160},
+                        {"hole": 8, "par": 4, "yards": 410},
+                        {"hole": 9, "par": 4, "yards": 390},
+                        {"hole": 10, "par": 4, "yards": 400},
+                        {"hole": 11, "par": 5, "yards": 500},
+                        {"hole": 12, "par": 3, "yards": 180},
+                        {"hole": 13, "par": 4, "yards": 420},
+                        {"hole": 14, "par": 4, "yards": 370},
+                        {"hole": 15, "par": 5, "yards": 490},
+                        {"hole": 16, "par": 3, "yards": 190},
+                        {"hole": 17, "par": 4, "yards": 410},
+                        {"hole": 18, "par": 4, "yards": 402}
+                    ]
+                }
+            },
+            {
+                "name": "Samar Golf Club",
+                "status": "Private",
+                "slope_rating": 126,
+                "yardage": 6400,
+                "scorecard": {
+                    "total_par": 72,
+                    "holes": [
+                        {"hole": 1, "par": 4, "yards": 380},
+                        {"hole": 2, "par": 5, "yards": 500},
+                        {"hole": 3, "par": 3, "yards": 160},
+                        {"hole": 4, "par": 4, "yards": 390},
+                        {"hole": 5, "par": 4, "yards": 370},
+                        {"hole": 6, "par": 5, "yards": 510},
+                        {"hole": 7, "par": 3, "yards": 150},
+                        {"hole": 8, "par": 4, "yards": 400},
+                        {"hole": 9, "par": 4, "yards": 380},
+                        {"hole": 10, "par": 4, "yards": 390},
+                        {"hole": 11, "par": 5, "yards": 490},
+                        {"hole": 12, "par": 3, "yards": 170},
+                        {"hole": 13, "par": 4, "yards": 410},
+                        {"hole": 14, "par": 4, "yards": 360},
+                        {"hole": 15, "par": 5, "yards": 480},
+                        {"hole": 16, "par": 3, "yards": 180},
+                        {"hole": 17, "par": 4, "yards": 400},
+                        {"hole": 18, "par": 4, "yards": 398}
+                    ]
+                }
+            },
+            {
+                "name": "Palawan Golf Club",
+                "status": "Private",
+                "slope_rating": 128,
+                "yardage": 6500,
+                "scorecard": {
+                    "total_par": 72,
+                    "holes": [
+                        {"hole": 1, "par": 4, "yards": 380},
+                        {"hole": 2, "par": 5, "yards": 500},
+                        {"hole": 3, "par": 3, "yards": 160},
+                        {"hole": 4, "par": 4, "yards": 400},
+                        {"hole": 5, "par": 4, "yards": 370},
+                        {"hole": 6, "par": 5, "yards": 510},
+                        {"hole": 7, "par": 3, "yards": 150},
+                        {"hole": 8, "par": 4, "yards": 410},
+                        {"hole": 9, "par": 4, "yards": 390},
+                        {"hole": 10, "par": 4, "yards": 400},
+                        {"hole": 11, "par": 5, "yards": 520},
+                        {"hole": 12, "par": 3, "yards": 170},
+                        {"hole": 13, "par": 4, "yards": 420},
+                        {"hole": 14, "par": 4, "yards": 360},
+                        {"hole": 15, "par": 5, "yards": 490},
+                        {"hole": 16, "par": 3, "yards": 180},
+                        {"hole": 17, "par": 4, "yards": 400},
+                        {"hole": 18, "par": 4, "yards": 395}
+                    ]
+                }
+            }
+        ]

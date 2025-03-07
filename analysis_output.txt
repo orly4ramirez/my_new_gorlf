@@ -1,0 +1,52 @@
+Analyzing my_new_gorlf...                                       
+
+   info - The private field _players could be 'final' - lib\screens\add_game_form.dart:35:27 - prefer_final_fields
+   info - Don't use 'BuildContext's across async gaps - lib\screens\add_game_form.dart:226:35 - use_build_context_synchronously
+warning - Unused import: 'stats_card.dart' - lib\screens\dashboard\dashboard_screen.dart:8:8 - unused_import
+   info - Statements in an if should be enclosed in a block - lib\screens\game_list\game_list.dart:26:28 - curly_braces_in_flow_control_structures
+  error - The returned type 'GorlfSimulationScreen' isn't returnable from a 'Widget' function, as required by the closure's context - lib\screens\game_list\game_row.dart:76:57 - return_of_invalid_type_from_closure
+warning - Unused import: '../models/game_player.dart' - lib\screens\player_list.dart:7:8 - unused_import
+  error - The method 'Score' isn't defined for the type 'PlayerListState' - lib\screens\player_list.dart:38:11 - undefined_method
+  error - The method 'Score' isn't defined for the type 'PlayerListState' - lib\screens\player_list.dart:41:26 - undefined_method
+  error - The operator '+' can't be unconditionally invoked because the receiver can be 'null' - lib\screens\player_list.dart:51:50 - unchecked_use_of_nullable_value
+  error - The method 'CourseHole' isn't defined for the type 'PlayerListState' - lib\screens\player_list.dart:83:83 - undefined_method
+  error - The body might complete normally, causing 'null' to be returned, but the return type, 'String', is a potentially non-nullable type - lib\screens\scorecard_widget.dart:35:10 - body_might_complete_normally
+  error - Classes can only extend other classes - lib\screens\simulation_screen.dart:3:37 - extends_non_class
+  error - No associated named super constructor parameter - lib\screens\simulation_screen.dart:6:38 - super_formal_parameter_without_associated_named
+warning - The method doesn't override an inherited method - lib\screens\simulation_screen.dart:9:30 - override_on_non_overriding_member
+  error - Classes can only extend other classes - lib\screens\simulation_screen.dart:12:42 - extends_non_class
+  error - Undefined class 'FirestoreService' - lib\screens\simulation_screen.dart:13:9 - undefined_class
+  error - The method 'FirestoreService' isn't defined for the type 'GorlfSimulationScreenState' - lib\screens\simulation_screen.dart:13:46 - undefined_method
+  error - Undefined class 'Widget' - lib\screens\simulation_screen.dart:16:3 - undefined_class
+warning - The method doesn't override an inherited method - lib\screens\simulation_screen.dart:16:10 - override_on_non_overriding_member
+  error - Undefined class 'BuildContext' - lib\screens\simulation_screen.dart:16:16 - undefined_class
+  error - Undefined name 'FirebaseAuth' - lib\screens\simulation_screen.dart:17:18 - undefined_identifier
+  error - The name 'shrink' isn't a class - lib\screens\simulation_screen.dart:18:36 - creation_with_non_type
+  error - The method 'Scaffold' isn't defined for the type 'GorlfSimulationScreenState' - lib\screens\simulation_screen.dart:21:12 - undefined_method
+  error - The method 'AppBar' isn't defined for the type 'GorlfSimulationScreenState' - lib\screens\simulation_screen.dart:22:15 - undefined_method
+  error - The method 'SingleChildScrollView' isn't defined for the type 'GorlfSimulationScreenState' - lib\screens\simulation_screen.dart:23:13 - undefined_method
+  error - Undefined name 'Axis' - lib\screens\simulation_screen.dart:24:26 - undefined_identifier
+  error - The method 'StreamBuilder' isn't defined for the type 'GorlfSimulationScreenState' - lib\screens\simulation_screen.dart:25:16 - undefined_method
+  error - The name 'Game' isn't a type, so it can't be used as a type argument - lib\screens\simulation_screen.dart:25:30 - non_type_as_type_argument
+  error - Undefined name 'widget' - lib\screens\simulation_screen.dart:26:45 - undefined_identifier
+  error - The name 'Center' isn't a class - lib\screens\simulation_screen.dart:28:49 - creation_with_non_type
+  error - The method 'CircularProgressIndicator' isn't defined for the type 'GorlfSimulationScreenState' - lib\screens\simulation_screen.dart:28:63 - undefined_method
+  error - The method 'FutureBuilder' isn't defined for the type 'GorlfSimulationScreenState' - lib\screens\simulation_screen.dart:31:20 - undefined_method
+  error - The name 'Course' isn't a type, so it can't be used as a type argument - lib\screens\simulation_screen.dart:31:39 - non_type_as_type_argument
+  error - The name 'Center' isn't a class - lib\screens\simulation_screen.dart:34:59 - creation_with_non_type
+  error - The method 'CircularProgressIndicator' isn't defined for the type 'GorlfSimulationScreenState' - lib\screens\simulation_screen.dart:34:73 - undefined_method
+  error - The method 'Course' isn't defined for the type 'GorlfSimulationScreenState' - lib\screens\simulation_screen.dart:37:23 - undefined_method
+  error - The method 'Hole' isn't defined for the type 'GorlfSimulationScreenState' - lib\screens\simulation_screen.dart:44:51 - undefined_method
+  error - The method 'Padding' isn't defined for the type 'GorlfSimulationScreenState' - lib\screens\simulation_screen.dart:47:24 - undefined_method
+  error - The name 'all' isn't a class - lib\screens\simulation_screen.dart:48:34 - creation_with_non_type
+  error - The method 'Column' isn't defined for the type 'GorlfSimulationScreenState' - lib\screens\simulation_screen.dart:49:26 - undefined_method
+  error - Undefined name 'CrossAxisAlignment' - lib\screens\simulation_screen.dart:50:41 - undefined_identifier
+  error - The method 'GameHeader' isn't defined for the type 'GorlfSimulationScreenState' - lib\screens\simulation_screen.dart:52:23 - undefined_method
+  error - The name 'SizedBox' isn't a class - lib\screens\simulation_screen.dart:58:29 - creation_with_non_type
+  error - The method 'PlayerList' isn't defined for the type 'GorlfSimulationScreenState' - lib\screens\simulation_screen.dart:59:23 - undefined_method
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:32:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:51:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:61:7 - avoid_print
+warning - Unused import: '../models/team.dart' - lib\services\firestore_service.dart:5:8 - unused_import
+warning - The value of the local variable 'winnerScore' isn't used - lib\utils\game_utils.dart:91:11 - unused_local_variable
+

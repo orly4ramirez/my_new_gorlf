@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "553578579474",
+    "project_id": "my-new-gorlf",
+    "storage_bucket": "my-new-gorlf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553578579474:android:3118058690ebb1b6e3facb",
+        "android_client_info": {
+          "package_name": "com.orly.ramirez.my_new_gorlf"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQ90H7S3JT1r-aGxCu4KxzXyjmzcEc1SE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
