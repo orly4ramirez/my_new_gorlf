@@ -1,44 +1,74 @@
 class Course {
   final String id;
   final String name;
+  final String userId;
   final String status;
   final int slopeRating;
   final int yardage;
   final int totalPar;
   final List<Hole> holes;
-  final String userId; // Must be here
 
   Course({
     required this.id,
     required this.name,
+    required this.userId,
     required this.status,
     required this.slopeRating,
     required this.yardage,
     required this.totalPar,
     required this.holes,
-    required this.userId,
   });
 
-  Map<String, dynamic> toMap() => {
-    'id': id,
-    'name': name,
-    'status': status,
-    'slopeRating': slopeRating,
-    'yardage': yardage,
-    'totalPar': totalPar,
-    'holes': holes.map((h) => h.toMap()).toList(),
-    'userId': userId,
-  };
+  factory Course.fromMap(Map<String, dynamic> map) {
+    return Course(
+      id: map['id'] ?? '',
+      name: map['name'] ?? '',
+      userId: map['userId'] ?? '',
+      status: map['status'] ?? 'Unknown',
+      slopeRating: map['slopeRating'] ?? 113,
+      yardage: map['yardage'] ?? 0,
+      totalPar: map['totalPar'] ?? 72,
+      holes: (map['holes'] as List<dynamic>?)
+          ?.map((h) => Hole.fromMap(h as Map<String, dynamic>))
+          .toList() ??
+          [],
+    );
+  }
 
-  Course.fromMap(Map<String, dynamic> map)
-      : id = map['id'],
-        name = map['name'],
-        status = map['status'],
-        slopeRating = map['slopeRating'],
-        yardage = map['yardage'],
-        totalPar = map['totalPar'],
-        holes = (map['holes'] as List).map((h) => Hole.fromMap(h)).toList(),
-        userId = map['userId'];
+  Map<String, dynamic> toMap() {
+    return {
+      'id': id,
+      'name': name,
+      'userId': userId,
+      'status': status,
+      'slopeRating': slopeRating,
+      'yardage': yardage,
+      'totalPar': totalPar,
+      'holes': holes.map((h) => h.toMap()).toList(),
+    };
+  }
+
+  Course copyWith({
+    String? id,
+    String? name,
+    String? userId,
+    String? status,
+    int? slopeRating,
+    int? yardage,
+    int? totalPar,
+    List<Hole>? holes,
+  }) {
+    return Course(
+      id: id ?? this.id,
+      name: name ?? this.name,
+      userId: userId ?? this.userId,
+      status: status ?? this.status,
+      slopeRating: slopeRating ?? this.slopeRating,
+      yardage: yardage ?? this.yardage,
+      totalPar: totalPar ?? this.totalPar,
+      holes: holes ?? List.from(this.holes),
+    );
+  }
 }
 
 class Hole {
@@ -46,17 +76,25 @@ class Hole {
   final int par;
   final int yards;
 
-  Hole({required this.holeNumber, required this.par, required this.yards});
+  Hole({
+    required this.holeNumber,
+    required this.par,
+    required this.yards,
+  });
 
-  Map<String, dynamic> toMap() => {
-    'holeNumber': holeNumber,
-    'par': par,
-    'yards': yards,
-  };
+  factory Hole.fromMap(Map<String, dynamic> map) {
+    return Hole(
+      holeNumber: map['holeNumber'] ?? 0,
+      par: map['par'] ?? 4,
+      yards: map['yards'] ?? 0,
+    );
+  }
 
-  factory Hole.fromMap(Map<String, dynamic> map) => Hole(
-    holeNumber: map['hole'] ?? map['holeNumber'] ?? 0,
-    par: map['par'] ?? 0,
-    yards: map['yards'] ?? 0,
-  );
+  Map<String, dynamic> toMap() {
+    return {
+      'holeNumber': holeNumber,
+      'par': par,
+      'yards': yards,
+    };
+  }
 }

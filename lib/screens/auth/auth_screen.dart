@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:firebase_auth/firebase_auth.dart'; // Import for User
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import '../../services/auth_service.dart';
 import 'auth_widgets.dart';
@@ -16,7 +16,6 @@ class AuthScreenState extends State<AuthScreen> {
   final AuthService _authService = AuthService();
   bool _isSignUp = false;
 
-  // Handle Google Sign-In callback
   void _handleGoogleSignIn(User? user) {
     if (!mounted) return;
     if (user != null) {
@@ -33,7 +32,7 @@ class AuthScreenState extends State<AuthScreen> {
 
     User? user;
     if (_isSignUp) {
-      if (displayName == null) return; // Prevent null passing
+      if (displayName == null) return;
       user = await _authService.signUpWithEmail(email, password, displayName);
     } else {
       user = await _authService.signInWithEmail(email, password);
@@ -79,13 +78,24 @@ class AuthScreenState extends State<AuthScreen> {
                       onSubmit: _handleEmailAuth,
                     ),
                     const SizedBox(height: 16),
-                    // Replace custom Google button with renderGoogleSignInButton
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         const FaIcon(FontAwesomeIcons.google, color: Colors.redAccent),
                         const SizedBox(width: 8),
-                        _authService.renderGoogleSignInButton(onSignedIn: _handleGoogleSignIn),
+                        ElevatedButton.icon(
+                          onPressed: () async {
+                            final user = await _authService.signInWithGoogle();
+                            _handleGoogleSignIn(user);
+                          },
+                          icon: const Icon(Icons.login, size: 18),
+                          label: const Text('Sign in with Google'),
+                          style: ElevatedButton.styleFrom(
+                            foregroundColor: Colors.black,
+                            backgroundColor: Colors.white,
+                            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
+                          ),
+                        ),
                       ],
                     ),
                     const SizedBox(height: 16),

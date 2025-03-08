@@ -29,7 +29,12 @@ class UploadScreenState extends State<UploadScreen> {
 
       final file = result.files.first;
       final jsonString = utf8.decode(file.bytes!);
-      final jsonData = jsonDecode(jsonString) as List<dynamic>;
+      final jsonData = jsonDecode(jsonString);
+
+      if (jsonData is! List) {
+        setState(() => _statusMessage = 'Invalid JSON: Must be a list');
+        return;
+      }
 
       final firestore = FirebaseFirestore.instance;
       final batch = firestore.batch();
@@ -38,31 +43,51 @@ class UploadScreenState extends State<UploadScreen> {
 
       int addedCount = 0;
       for (var courseData in jsonData) {
-        final courseMap = courseData as Map<String, dynamic>;
-        final courseName = courseMap['name'] as String;
+        if (courseData is! Map<String, dynamic>) {
+          print('Skipping invalid course data: $courseData');
+          continue;
+        }
+        final courseMap = courseData;
+        final courseName = courseMap['name'] as String?;
 
-        if (existingNames.contains(courseName)) continue;
+        if (courseName == null || existingNames.contains(courseName)) {
+          print('Skipping duplicate or invalid course: $courseName');
+          continue;
+        }
 
-        final docRef = firestore.collection('courses').doc();
-        final course = Course(
-          id: docRef.id,
-          name: courseName,
-          status: courseMap['status'] as String,
-          slopeRating: courseMap['slope_rating'] as int,
-          yardage: courseMap['yardage'] as int,
-          totalPar: courseMap['scorecard']['total_par'] as int,
-          holes: (courseMap['scorecard']['holes'] as List<dynamic>)
-              .map((h) => Hole.fromMap(h as Map<String, dynamic>))
-              .toList(),
-          userId: user.uid,
-        );
-        batch.set(docRef, course.toMap());
-        addedCount++;
+        try {
+          final docRef = firestore.collection('courses').doc();
+          final course = Course(
+            id: docRef.id,
+            name: courseName,
+            status: courseMap['status'] as String? ?? 'Unknown',
+            slopeRating: courseMap['slope_rating'] as int? ?? 113,
+            yardage: courseMap['yardage'] as int? ?? 0,
+            totalPar: (courseMap['scorecard'] as Map<String, dynamic>?)?['total_par'] as int? ?? 72,
+            holes: (courseMap['scorecard'] as Map<String, dynamic>?)?['holes'] is List
+                ? (courseMap['scorecard']['holes'] as List<dynamic>)
+                .map((h) => Hole.fromMap(h as Map<String, dynamic>))
+                .toList()
+                : [],
+            userId: user.uid,
+          );
+          batch.set(docRef, course.toMap());
+          addedCount++;
+          existingNames.add(courseName); // Prevent duplicates within batch
+        } catch (e) {
+          print('Error processing course $courseName: $e');
+        }
+      }
+
+      if (addedCount == 0) {
+        setState(() => _statusMessage = 'No new courses to upload');
+        return;
       }
 
       await batch.commit();
       setState(() => _statusMessage = 'Uploaded $addedCount courses successfully');
     } catch (e) {
+      print('Upload Error: $e');
       setState(() => _statusMessage = 'Error uploading courses: $e');
     }
   }

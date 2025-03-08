@@ -1,3 +1,4 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import '../models/game.dart';
 import '../models/game_player.dart';
 import '../models/score.dart';
@@ -5,9 +6,19 @@ import '../models/course.dart';
 
 double calculateHandicap(List<Game> games) {
   if (games.isEmpty) return 0.0;
-  final differentials = games.map((game) {
-    final score = game.players.values.first.totalScore;
-    final course = Course(id: '', name: game.courseId, status: 'Unknown', slopeRating: 113, yardage: 0, totalPar: 72, holes: [], userId: '');
+  final playerId = FirebaseAuth.instance.currentUser!.uid;
+  final differentials = games.where((game) => game.players.containsKey(playerId)).map((game) {
+    final score = game.players[playerId]!.totalScore;
+    final course = Course(
+      id: '',
+      name: game.courseId,
+      status: 'Unknown',
+      slopeRating: 113,
+      yardage: 0,
+      totalPar: 72,
+      holes: [],
+      userId: '',
+    );
     return (score - course.totalPar) * 113 / course.slopeRating;
   }).toList()..sort();
   final bestDifferentials = differentials.take(games.length < 8 ? games.length : 8).toList();
@@ -16,14 +27,20 @@ double calculateHandicap(List<Game> games) {
 
 double calculateAvgScore(List<Game> games) {
   if (games.isEmpty) return 0.0;
-  return games.fold<int>(0, (sum, game) => sum + game.players.values.first.totalScore) / games.length;
+  final playerId = FirebaseAuth.instance.currentUser!.uid;
+  final validGames = games.where((game) => game.players.containsKey(playerId)).toList();
+  if (validGames.isEmpty) return 0.0;
+  return validGames.fold<int>(0, (sum, game) => sum + game.players[playerId]!.totalScore) / validGames.length;
 }
 
 double calculateGirPercentage(List<Game> games) {
   if (games.isEmpty) return 0.0;
-  final totalGir = games.fold<int>(0, (sum, game) => sum + game.players.values.first.scores.where((s) => s.gir).length);
-  final totalHoles = games.length * 18;
-  return (totalGir / totalHoles) * 100;
+  final playerId = FirebaseAuth.instance.currentUser!.uid;
+  final validGames = games.where((game) => game.players.containsKey(playerId)).toList();
+  if (validGames.isEmpty) return 0.0;
+  final totalGir = validGames.fold<int>(0, (sum, game) => sum + game.players[playerId]!.scores.where((s) => s.gir ?? false).length);
+  final totalHoles = validGames.fold<int>(0, (sum, game) => sum + game.players[playerId]!.scores.length);
+  return totalHoles > 0 ? (totalGir / totalHoles) * 100 : 0.0;
 }
 
 double calculateAvgPutts(List<Score> scores) {
@@ -38,7 +55,7 @@ Map<String, dynamic> calculateTeamTotals(Map<String, GamePlayer> players) {
 Map<String, dynamic> calculateTeamAvgStats(Map<String, GamePlayer> players, List<Hole> courseHoles) {
   if (players.isEmpty) return {'stablefordPoints': 0, 'girPercentage': 0.0, 'avgPutts': 0.0};
   final totalHoles = players.values.fold<int>(0, (sum, p) => sum + p.scores.length);
-  final girCount = players.values.fold<int>(0, (sum, p) => sum + p.scores.where((s) => s.gir).length);
+  final girCount = players.values.fold<int>(0, (sum, p) => sum + p.scores.where((s) => s.gir ?? false).length);
   final avgPutts = players.values.fold<double>(0, (sum, p) => sum + calculateAvgPutts(p.scores)) / players.length;
   final stablefordPoints = players.values.fold<int>(0, (sum, p) {
     return sum + p.scores.fold<int>(0, (s, score) {
@@ -57,10 +74,10 @@ Map<String, dynamic> calculateTeamAvgStats(Map<String, GamePlayer> players, List
 Map<String, dynamic> calculatePlayerStats(GamePlayer player, List<Hole> courseHoles) {
   final holesPlayed = player.scores.length;
   final totalScore = player.scores.fold<int>(0, (sum, score) => sum + (score.scoreValue ?? 0));
-  final girCount = player.scores.where((score) => score.gir).length;
+  final girCount = player.scores.where((score) => score.gir ?? false).length;
   final girPercentage = holesPlayed > 0 ? (girCount / holesPlayed) * 100 : 0.0;
   final stablefordPoints = player.scores.fold<int>(0, (sum, score) {
-    final par = courseHoles.firstWhere((h) => h.holeNumber == score.holeNumber).par;
+    final par = courseHoles.firstWhere((h) => h.holeNumber == score.holeNumber, orElse: () => Hole(holeNumber: score.holeNumber, par: 4, yards: 400)).par;
     final diff = par - (score.scoreValue ?? par) + 2;
     return sum + (diff > 0 ? diff : 0);
   });
@@ -77,7 +94,6 @@ void calculateStats(String playerId, Map<String, GamePlayer> players, int totalP
   players[playerId] = player.copyWith(
     totalScore: stats['totalScore'] as int,
     girPercentage: stats['girPercentage'] as double,
-    stablefordPoints: stats['stablefordPoints'] as int,
   );
 }
 
@@ -89,6 +105,8 @@ void calculateSkins(int holeNumber, Map<String, GamePlayer> players, bool skinsM
   if (winners.length == 1) {
     skinsEarnings[winners.first] = (skinsEarnings[winners.first] ?? 0) + skinsBet;
     final winnerScore = players[winners.first]!.scores.firstWhere((s) => s.holeNumber == holeNumber);
-    players[winners.first] = players[winners.first]!.copyWith(scores: players[winners.first]!.scores.map((s) => s.holeNumber == holeNumber ? Score(holeNumber: s.holeNumber, scoreValue: s.scoreValue, putts: s.putts, gir: s.gir, skinsWinner: true) : s).toList());
+    players[winners.first] = players[winners.first]!.copyWith(
+      scores: players[winners.first]!.scores.map((s) => s.holeNumber == holeNumber ? Score(holeNumber: s.holeNumber, scoreValue: s.scoreValue, putts: s.putts, gir: s.gir, skinsWinner: true) : s).toList(),
+    );
   }
 }

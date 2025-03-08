@@ -1,18 +1,14 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'game_player.dart';
+import 'package:my_new_gorlf/models/game_player.dart';
 
 class Game {
   final String id;
   final String date;
   final String title;
   final String courseId;
-  final String? teamId;
-  final String? tournamentId;
   final String gameType;
   final bool skinsMode;
   final int skinsBet;
   final Map<String, GamePlayer> players;
-  final Map<String, dynamic>? teamStats;
   final bool useHandicap;
 
   Game({
@@ -20,48 +16,64 @@ class Game {
     required this.date,
     required this.title,
     required this.courseId,
-    this.teamId,
-    this.tournamentId,
     required this.gameType,
     required this.skinsMode,
     required this.skinsBet,
     required this.players,
-    this.teamStats,
     required this.useHandicap,
   });
 
-  Map<String, dynamic> toMap() => {
-    'id': id,
-    'date': date,
-    'title': title,
-    'courseId': courseId,
-    'teamId': teamId,
-    'tournamentId': tournamentId,
-    'gameType': gameType,
-    'skinsMode': skinsMode,
-    'skinsBet': skinsBet,
-    'players': players.map((k, v) => MapEntry(k, v.toMap())),
-    'teamStats': teamStats,
-    'useHandicap': useHandicap,
-  };
-
-  factory Game.fromSnapshot(DocumentSnapshot doc) {
-    final data = doc.data() as Map<String, dynamic>;
+  factory Game.fromMap(Map<String, dynamic> map) {
     return Game(
-      id: data['id'] ?? doc.id,
-      date: data['date'] ?? '',
-      title: data['title'] ?? '',
-      courseId: data['courseId'] ?? data['course'] ?? '',
-      teamId: data['teamId'],
-      tournamentId: data['tournamentId'],
-      gameType: data['gameType'] ?? 'stroke_gross',
-      skinsMode: data['skinsMode'] ?? false,
-      skinsBet: data['skinsBet'] ?? 0,
-      players: (data['players'] as Map<String, dynamic>?)?.map(
-            (k, v) => MapEntry(k, GamePlayer.fromMap(v as Map<String, dynamic>)),
-      ) ?? {},
-      teamStats: data['teamStats'],
-      useHandicap: data['useHandicap'] ?? true,
+      id: map['id'] ?? '',
+      date: map['date'] ?? '',
+      title: map['title'] ?? '',
+      courseId: map['courseId'] ?? '',
+      gameType: map['gameType'] ?? 'stroke_gross',
+      skinsMode: map['skinsMode'] ?? false,
+      skinsBet: map['skinsBet'] ?? 0,
+      players: (map['players'] as Map<String, dynamic>? ?? {}).map(
+            (key, value) => MapEntry(key, GamePlayer.fromMap(value as Map<String, dynamic>)),
+      ),
+      useHandicap: map['useHandicap'] ?? true,
+    );
+  }
+
+  Map<String, dynamic> toMap() {
+    return {
+      'id': id,
+      'date': date,
+      'title': title,
+      'courseId': courseId,
+      'gameType': gameType,
+      'skinsMode': skinsMode,
+      'skinsBet': skinsBet,
+      'players': players.map((key, value) => MapEntry(key, value.toMap())),
+      'useHandicap': useHandicap,
+    };
+  }
+
+  Game copyWith({
+    String? id,
+    String? date,
+    String? title,
+    String? courseId,
+    String? gameType,
+    bool? skinsMode,
+    int? skinsBet,
+    Map<String, GamePlayer>? players,
+    bool? useHandicap,
+  }) {
+    return Game(
+      id: id ?? this.id,
+      date: date ?? this.date,
+      title: title ?? this.title,
+      courseId: courseId ?? this.courseId,
+      gameType: gameType ?? this.gameType,
+      skinsMode: skinsMode ?? this.skinsMode,
+      skinsBet: skinsBet ?? this.skinsBet,
+      players: players ?? Map.from(this.players),
+      useHandicap: useHandicap ?? this.useHandicap,
     );
   }
 }

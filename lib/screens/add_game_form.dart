@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:cloud_firestore/cloud_firestore.dart'; // Added import
-import '../models/course.dart';
-import '../models/game.dart';
-import '../models/game_player.dart';
-import '../services/firestore_service.dart';
+import '../../models/game.dart';
+import '../../models/game_player.dart';
+import '../../services/firestore_service.dart';
+import '../../models/course.dart';
 
 class AddGameForm extends StatefulWidget {
   final Future<List<Course>> golfCoursesFuture;
@@ -24,212 +23,197 @@ class AddGameForm extends StatefulWidget {
 
 class AddGameFormState extends State<AddGameForm> {
   final _formKey = GlobalKey<FormState>();
-  final _titleController = TextEditingController();
-  final _dateController = TextEditingController(text: DateTime.now().toIso8601String().substring(0, 10));
-  final _scoreController = TextEditingController();
-  final _courseController = TextEditingController();
-  final _teamNameController = TextEditingController();
-  final _playerNameController = TextEditingController();
-  String _gameType = 'stroke_gross';
-  bool _useHandicap = true;
-  final Map<String, GamePlayer> _players = {};
-  List<String> _previousTitles = [];
-  List<String> _previousCourses = [];
-  List<String> _previousTeams = [];
-  List<String> _previousPlayers = [];
+  String? _selectedCourseName;
+  DateTime _selectedDate = DateTime.now();
+  double? _slopeRating;
+  final _slopeController = TextEditingController();
+  String? _gameDescription;
+  int? _defaultScore;
+  List<String> _previousDescriptions = [];
+  List<Course> _courses = [];
 
   @override
   void initState() {
     super.initState();
-    _loadAutocompleteData();
-    final user = FirebaseAuth.instance.currentUser!;
-    _players[user.uid] = GamePlayer(
-      playerId: user.uid,
-      scores: [],
-      totalScore: 0,
-      girPercentage: 0.0,
-      stablefordPoints: null,
-      holeInOneCount: 0,
-      handicapAdjustment: 0.0,
-    );
+    _loadCourses();
+    _loadPreviousDescriptions();
   }
 
-  Future<void> _loadAutocompleteData() async {
-    final titles = await widget.firestoreService.getGameTitles();
-    final courses = (await widget.golfCoursesFuture).map((c) => c.name).toList();
-    final teams = await widget.firestoreService.getTeamNames();
-    final players = await widget.firestoreService.getPlayerNames();
+  Future<void> _loadCourses() async {
+    _courses = await widget.golfCoursesFuture;
+    setState(() {});
+  }
+
+  Future<void> _loadPreviousDescriptions() async {
+    final games = await widget.firestoreService.getGames().first;
+    _previousDescriptions = games.map((g) => g.title).toSet().toList();
+    setState(() {});
+  }
+
+  void _onCourseSelected(String value) {
+    final course = _courses.firstWhere(
+          (c) => c.name == value,
+      orElse: () => Course(
+        id: '',
+        name: value,
+        userId: FirebaseAuth.instance.currentUser!.uid,
+        status: 'Unknown',
+        slopeRating: 113,
+        yardage: 0,
+        totalPar: 72,
+        holes: List.generate(18, (index) => Hole(holeNumber: index + 1, par: 4, yards: 400)), // Default 18 holes
+      ),
+    );
     setState(() {
-      _previousTitles = titles;
-      _previousCourses = courses;
-      _previousTeams = teams;
-      _previousPlayers = players;
+      _selectedCourseName = value;
+      _slopeRating = course.slopeRating.toDouble();
+      _slopeController.text = _slopeRating.toString();
+      if (!_courses.any((c) => c.name == value)) {
+        widget.firestoreService.addCourse(course);
+        _courses.add(course);
+      }
     });
   }
 
-  void _addPlayer() async {
-    final name = _playerNameController.text.trim();
-    if (name.isNotEmpty && !_players.containsKey(name)) {
-      final userDoc = await FirebaseFirestore.instance.collection('players').where('name', isEqualTo: name).get();
-      String playerId = userDoc.docs.isEmpty
-          ? (await FirebaseFirestore.instance.collection('players').doc().set({'name': name}).then((_) => FirebaseFirestore.instance.collection('players').where('name', isEqualTo: name).get())).docs.first.id
-          : userDoc.docs.first.id;
-      setState(() {
-        _players[playerId] = GamePlayer(
+  Future<void> _saveGame() async {
+    if (_formKey.currentState!.validate()) {
+      final user = FirebaseAuth.instance.currentUser!;
+      final playerId = user.uid;
+      final players = {
+        playerId: GamePlayer(
           playerId: playerId,
           scores: [],
-          totalScore: 0,
+          totalScore: _defaultScore ?? 0,
           girPercentage: 0.0,
-          stablefordPoints: null,
           holeInOneCount: 0,
           handicapAdjustment: 0.0,
-        );
-        _previousPlayers = [..._previousPlayers, name]..toSet().toList();
-        _playerNameController.clear();
-      });
+        ),
+      };
+      final game = Game(
+        id: '',
+        date: _selectedDate.toString().split(' ')[0],
+        title: _gameDescription ?? '',
+        courseId: _selectedCourseName!,
+        gameType: 'stroke_gross',
+        skinsMode: false,
+        skinsBet: 0,
+        players: players,
+        useHandicap: true,
+      );
+
+      try {
+        await widget.firestoreService.addGame(game);
+        widget.onSave();
+      } catch (e) {
+        print('Error saving game: $e');
+        if (context.mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('Failed to save game: $e')));
+        }
+      }
     }
   }
 
   @override
   Widget build(BuildContext context) {
-    final user = FirebaseAuth.instance.currentUser!;
-    final mainPlayerId = user.uid;
-
-    return Padding(
+    return Container(
+      width: 400,
       padding: const EdgeInsets.all(16.0),
       child: Form(
         key: _formKey,
-        child: SingleChildScrollView(
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Autocomplete<String>(
-                optionsBuilder: (textEditingValue) => _previousTitles.where((t) => t.toLowerCase().contains(textEditingValue.text.toLowerCase())),
-                onSelected: (selection) => _titleController.text = selection,
-                fieldViewBuilder: (context, controller, focusNode, onFieldSubmitted) {
-                  _titleController.text = controller.text;
-                  return TextFormField(
-                    controller: controller,
-                    focusNode: focusNode,
-                    decoration: const InputDecoration(labelText: 'Game Description'),
-                    validator: (value) => value!.isEmpty ? 'Enter a description' : null,
-                  );
-                },
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const Text('Add New Game', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+            const SizedBox(height: 16),
+            Autocomplete<String>(
+              optionsBuilder: (TextEditingValue textEditingValue) {
+                if (textEditingValue.text.isEmpty) return _courses.map((c) => c.name);
+                return _courses
+                    .map((c) => c.name)
+                    .where((name) => name.toLowerCase().contains(textEditingValue.text.toLowerCase()));
+              },
+              onSelected: _onCourseSelected,
+              fieldViewBuilder: (context, controller, focusNode, onFieldSubmitted) {
+                return TextFormField(
+                  controller: controller,
+                  focusNode: focusNode,
+                  decoration: const InputDecoration(
+                    labelText: 'Golf Course Name *',
+                    labelStyle: TextStyle(fontWeight: FontWeight.bold),
+                    border: OutlineInputBorder(),
+                  ),
+                  onChanged: (value) => _selectedCourseName = value,
+                  validator: (value) => value == null || value.isEmpty ? 'Please enter a course' : null,
+                );
+              },
+            ),
+            const SizedBox(height: 12),
+            TextFormField(
+              decoration: const InputDecoration(
+                labelText: 'Date *',
+                labelStyle: TextStyle(fontWeight: FontWeight.bold),
+                border: OutlineInputBorder(),
               ),
-              const SizedBox(height: 16),
-              TextFormField(
-                controller: _dateController,
-                decoration: const InputDecoration(labelText: 'Date (YYYY-MM-DD)'),
-                validator: (value) => DateTime.tryParse(value!) == null ? 'Invalid date' : null,
+              initialValue: _selectedDate.toString().split(' ')[0],
+              onTap: () async {
+                final picked = await showDatePicker(
+                  context: context,
+                  initialDate: _selectedDate,
+                  firstDate: DateTime(2000),
+                  lastDate: DateTime(2100),
+                );
+                if (picked != null) setState(() => _selectedDate = picked);
+              },
+              readOnly: true,
+              validator: (value) => value!.isEmpty ? 'Please select a date' : null,
+            ),
+            const SizedBox(height: 12),
+            TextFormField(
+              controller: _slopeController,
+              decoration: const InputDecoration(
+                labelText: 'Slope Rating',
+                border: OutlineInputBorder(),
               ),
-              const SizedBox(height: 16),
-              Autocomplete<String>(
-                optionsBuilder: (textEditingValue) => _previousCourses.where((c) => c.toLowerCase().contains(textEditingValue.text.toLowerCase())),
-                onSelected: (selection) => _courseController.text = selection,
-                fieldViewBuilder: (context, controller, focusNode, onFieldSubmitted) {
-                  _courseController.text = controller.text;
-                  return TextFormField(
-                    controller: controller,
-                    focusNode: focusNode,
-                    decoration: const InputDecoration(labelText: 'Course Name'),
-                    validator: (value) => value!.isEmpty ? 'Enter a course' : null,
-                  );
-                },
+              keyboardType: TextInputType.number,
+              onChanged: (value) => _slopeRating = double.tryParse(value),
+            ),
+            const SizedBox(height: 12),
+            TextFormField(
+              decoration: const InputDecoration(
+                labelText: 'Score (optional)',
+                border: OutlineInputBorder(),
               ),
-              const SizedBox(height: 16),
-              DropdownButtonFormField<String>(
-                value: _gameType,
-                items: [
-                  'stroke_gross', 'stroke_net', 'match', 'stableford', 'best_ball', 'scramble',
-                  'shamble', 'alternate_shot', 'greensome', 'skins', 'bingo_bango_bongo', 'nassau'
-                ].map((type) => DropdownMenuItem(value: type, child: Text(type.replaceAll('_', ' ').toUpperCase()))).toList(),
-                onChanged: (value) => setState(() => _gameType = value!),
-                decoration: const InputDecoration(labelText: 'Game Format'),
-              ),
-              const SizedBox(height: 16),
-              TextFormField(
-                controller: _scoreController,
-                decoration: const InputDecoration(labelText: 'Your Total Score'),
-                keyboardType: TextInputType.number,
-                validator: (value) => int.tryParse(value!) == null ? 'Enter a valid score' : null,
-              ),
-              const SizedBox(height: 16),
-              SwitchListTile(
-                title: const Text('Use Handicap'),
-                value: _useHandicap,
-                onChanged: (value) => setState(() => _useHandicap = value),
-              ),
-              const SizedBox(height: 16),
-              Autocomplete<String>(
-                optionsBuilder: (textEditingValue) => _previousTeams.where((t) => t.toLowerCase().contains(textEditingValue.text.toLowerCase())),
-                onSelected: (selection) => _teamNameController.text = selection,
-                fieldViewBuilder: (context, controller, focusNode, onFieldSubmitted) {
-                  _teamNameController.text = controller.text;
-                  return TextFormField(
-                    controller: controller,
-                    focusNode: focusNode,
-                    decoration: const InputDecoration(labelText: 'Team Name (Optional)'),
-                  );
-                },
-              ),
-              const SizedBox(height: 16),
-              Autocomplete<String>(
-                optionsBuilder: (textEditingValue) => _previousPlayers.where((p) => p.toLowerCase().contains(textEditingValue.text.toLowerCase())),
-                onSelected: (selection) {
-                  _playerNameController.text = selection;
-                  _addPlayer();
-                },
-                fieldViewBuilder: (context, controller, focusNode, onFieldSubmitted) {
-                  _playerNameController.text = controller.text;
-                  return TextFormField(
-                    controller: controller,
-                    focusNode: focusNode,
-                    decoration: const InputDecoration(labelText: 'Add Player'),
-                    onFieldSubmitted: (_) => _addPlayer(),
-                  );
-                },
-              ),
-              const SizedBox(height: 16),
-              Text('Players: ${_players.length}'),
-              const SizedBox(height: 24),
-              ElevatedButton(
-                onPressed: () async {
-                  if (_formKey.currentState!.validate()) {
-                    final courseName = _courseController.text;
-                    final courses = await widget.golfCoursesFuture;
-                    final course = courses.firstWhere((c) => c.name == courseName, orElse: () => Course(
-                      id: '',
-                      name: courseName,
-                      status: 'Custom',
-                      slopeRating: 113, // Default slope
-                      yardage: 0,
-                      totalPar: 72, // Default par
-                      holes: List.generate(18, (i) => Hole(holeNumber: i + 1, par: 4, yards: 400)), userId: '',
-                    ));
-                    _players[mainPlayerId] = _players[mainPlayerId]!.copyWith(totalScore: int.parse(_scoreController.text));
-                    final game = Game(
-                      id: '',
-                      date: _dateController.text,
-                      title: _titleController.text,
-                      courseId: course.id.isEmpty ? courseName : course.id,
-                      teamId: _teamNameController.text.isNotEmpty ? _teamNameController.text : null,
-                      tournamentId: null,
-                      gameType: _gameType,
-                      skinsMode: false,
-                      skinsBet: 0,
-                      players: _players,
-                      teamStats: _players.length > 1 ? {'totalScore': _players.values.map((p) => p.totalScore).reduce((a, b) => a + b)} : null,
-                      useHandicap: _useHandicap,
-                    );
-                    await widget.firestoreService.addGame(game);
-                    widget.onSave();
-                    Navigator.pop(context);
-                  }
-                },
-                child: const Text('Save Game'),
-              ),
-            ],
-          ),
+              keyboardType: TextInputType.number,
+              onChanged: (value) => _defaultScore = int.tryParse(value),
+            ),
+            const SizedBox(height: 12),
+            Autocomplete<String>(
+              optionsBuilder: (TextEditingValue textEditingValue) {
+                return _previousDescriptions.where((desc) => desc.toLowerCase().contains(textEditingValue.text.toLowerCase()));
+              },
+              onSelected: (value) => _gameDescription = value,
+              fieldViewBuilder: (context, controller, focusNode, onFieldSubmitted) {
+                return TextFormField(
+                  controller: controller,
+                  focusNode: focusNode,
+                  decoration: const InputDecoration(
+                    labelText: 'Game Description',
+                    border: OutlineInputBorder(),
+                  ),
+                  onChanged: (value) => _gameDescription = value,
+                );
+              },
+            ),
+            const SizedBox(height: 20),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: [
+                TextButton(onPressed: () => Navigator.pop(context), child: const Text('Cancel')),
+                ElevatedButton(onPressed: _saveGame, child: const Text('Save Game')),
+              ],
+            ),
+          ],
         ),
       ),
     );

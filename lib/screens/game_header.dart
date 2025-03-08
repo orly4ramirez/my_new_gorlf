@@ -26,13 +26,11 @@ class GameHeader extends StatefulWidget {
 }
 
 class GameHeaderState extends State<GameHeader> {
-  late bool _skinsMode;
   late TextEditingController _skinsBetController;
 
   @override
   void initState() {
     super.initState();
-    _skinsMode = widget.game.skinsMode;
     _skinsBetController = TextEditingController(text: widget.game.skinsBet.toString());
     _loadUserHandicap();
   }
@@ -59,116 +57,109 @@ class GameHeaderState extends State<GameHeader> {
     final newPlayerName = newPlayerData['name'] as String;
     final newPlayerHandicap = (newPlayerData['handicap'] as num?)?.toDouble() ?? 0.0;
 
-    final playerDoc = await FirebaseFirestore.instance.collection('players').where('name', isEqualTo: newPlayerName).get();
-    final playerId = playerDoc.docs.isEmpty
-        ? (await FirebaseFirestore.instance.collection('players').add({'name': newPlayerName, 'handicap': newPlayerHandicap})).id
-        : playerDoc.docs.first.id;
+    final user = FirebaseAuth.instance.currentUser!;
+    final playerId = '${user.uid}_$newPlayerName';
+
+    final newPlayer = GamePlayer(
+      playerId: playerId,
+      scores: [],
+      totalScore: 0,
+      girPercentage: 0.0,
+      holeInOneCount: 0,
+      handicapAdjustment: newPlayerHandicap,
+    );
 
     setState(() {
-      widget.game.players[playerId] = GamePlayer( // Corrected: Use constructor directly
-        playerId: playerId,
-        scores: [],
-        totalScore: 0,
-        girPercentage: 0.0,
-        holeInOneCount: 0,
-        handicapAdjustment: newPlayerHandicap,
-      );
+      widget.game.players[playerId] = newPlayer;
     });
-    await widget.firestoreService.updateGame(widget.game.id, {
-      'players': widget.game.players.map((k, v) => MapEntry(k, v.toMap())),
-    });
-  }
 
-  Future<void> _updateScore() async {
-    final userScore = widget.game.players[FirebaseAuth.instance.currentUser!.uid]!.totalScore;
     await widget.firestoreService.updateGame(widget.game.id, {
-      'teamStats': widget.game.teamStats ?? {'totalScore': userScore},
       'players': widget.game.players.map((k, v) => MapEntry(k, v.toMap())),
     });
-    if (mounted) Navigator.pop(context);
   }
 
   @override
   Widget build(BuildContext context) {
-    final totalYardage = widget.course.holes.fold<int>(0, (acc, h) => acc + h.yards); // Used to silence warning
+    final totalYardage = widget.course.holes.fold<int>(0, (acc, h) => acc + h.yards);
     final teamStats = calculateTeamTotals(widget.game.players);
-    final title = widget.game.title.trim().isEmpty ? '' : ' - ${widget.game.title.trim()}';
     final teamAvgStats = calculateTeamAvgStats(widget.game.players, widget.course.holes);
 
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 8.0),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+    return StreamBuilder<Game>(
+      stream: widget.firestoreService.streamGame(widget.game.id),
+      builder: (context, snapshot) {
+        final game = snapshot.hasData ? snapshot.data! : widget.game;
+
+        return Padding(
+          padding: const EdgeInsets.symmetric(vertical: 8.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Expanded(
-                child: Text(
-                  '${widget.game.courseId}$title${widget.game.teamId != null ? ' (Team: ${widget.game.teamId})' : ''} - $totalYardage yards', // Added totalYardage usage
-                  style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-                ),
-              ),
               Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
+                  Expanded(
+                    child: Text(
+                      '${game.date} (${game.courseId}/$totalYardage yards)',
+                      style: const TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
+                    ),
+                  ),
                   Row(
                     children: [
-                      const Text('Skins', style: TextStyle(fontSize: 12)),
-                      Checkbox(
-                        value: _skinsMode,
-                        onChanged: (value) async {
-                          setState(() => _skinsMode = value ?? false);
-                          await widget.firestoreService.updateGame(widget.game.id, {'skinsMode': _skinsMode});
-                        },
+                      Row(
+                        children: [
+                          const Text('Skins', style: TextStyle(fontSize: 12)),
+                          Checkbox(
+                            value: game.skinsMode,
+                            onChanged: game.players.length > 1
+                                ? (value) async {
+                              await widget.firestoreService.updateGame(widget.game.id, {'skinsMode': value ?? false});
+                            }
+                                : null,
+                          ),
+                        ],
+                      ),
+                      const SizedBox(width: 8),
+                      SizedBox(
+                        width: 60,
+                        child: TextField(
+                          controller: _skinsBetController,
+                          keyboardType: TextInputType.number,
+                          decoration: const InputDecoration(labelText: '\$ Bet', border: OutlineInputBorder()),
+                          onChanged: (value) async {
+                            final newBet = int.tryParse(value) ?? 5;
+                            await widget.firestoreService.updateGame(widget.game.id, {'skinsBet': newBet});
+                          },
+                        ),
+                      ),
+                      const SizedBox(width: 8),
+                      IconButton(
+                        icon: const Icon(Icons.person_add, size: 20),
+                        tooltip: 'Add Player',
+                        onPressed: () => _addPlayer(context),
+                      ),
+                      const SizedBox(width: 8),
+                      IconButton(
+                        icon: const Icon(Icons.close, size: 20),
+                        tooltip: 'Close Scorecard',
+                        onPressed: () => Navigator.pop(context),
                       ),
                     ],
                   ),
-                  const SizedBox(width: 8),
-                  SizedBox(
-                    width: 60,
-                    child: TextField(
-                      controller: _skinsBetController,
-                      keyboardType: TextInputType.number,
-                      decoration: const InputDecoration(labelText: '\$ Bet', border: OutlineInputBorder()),
-                      onChanged: (value) async {
-                        final newBet = int.tryParse(value) ?? 5;
-                        await widget.firestoreService.updateGame(widget.game.id, {'skinsBet': newBet});
-                      },
-                    ),
-                  ),
-                  const SizedBox(width: 8),
-                  IconButton(
-                    icon: const Icon(Icons.person_add, size: 20),
-                    tooltip: 'Add Player',
-                    onPressed: () => _addPlayer(context),
-                  ),
-                  const SizedBox(width: 8),
-                  IconButton(
-                    icon: const Icon(Icons.upload, size: 20),
-                    tooltip: 'Update Score',
-                    onPressed: _updateScore,
-                  ),
-                  const SizedBox(width: 8),
-                  IconButton(
-                    icon: const Icon(Icons.close, size: 20),
-                    tooltip: 'Close Scorecard',
-                    onPressed: () => Navigator.pop(context),
-                  ),
                 ],
               ),
+              if (game.players.length > 1)
+                Padding(
+                  padding: const EdgeInsets.only(top: 4.0),
+                  child: Text(
+                    'Team - Score: ${teamStats['totalScore']} | Stableford: ${teamAvgStats['stablefordPoints']} | '
+                        'GIR: ${teamAvgStats['girPercentage'].toStringAsFixed(1)}% | Avg Putts: ${teamAvgStats['avgPutts'].toStringAsFixed(1)}',
+                    style: const TextStyle(fontSize: 12),
+                  ),
+                ),
             ],
           ),
-          if (widget.game.players.length > 1)
-            Padding(
-              padding: const EdgeInsets.only(top: 4.0),
-              child: Text(
-                'Team - Score: ${teamStats['totalScore']} | Stableford: ${teamAvgStats['stablefordPoints']} | '
-                    'GIR: ${teamAvgStats['girPercentage'].toStringAsFixed(1)}% | Avg Putts: ${teamAvgStats['avgPutts'].toStringAsFixed(1)}',
-                style: const TextStyle(fontSize: 12),
-              ),
-            ),
-        ],
-      ),
+        );
+      },
     );
   }
 
@@ -203,7 +194,7 @@ class GameHeaderState extends State<GameHeader> {
               'name': nameController.text,
               'handicap': double.tryParse(handicapController.text),
             }),
-            child: const Text('Add'),
+            child: const Text('Save'),
           ),
         ],
       ),
