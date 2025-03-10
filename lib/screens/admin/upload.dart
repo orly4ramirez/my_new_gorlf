@@ -41,10 +41,15 @@ class UploadScreenState extends State<UploadScreen> {
       final existingCourses = await firestore.collection('courses').get();
       final existingNames = existingCourses.docs.map((doc) => doc['name'] as String).toSet();
 
-      int addedCount = 0;
+      // Counters for tracking
+      int totalCourses = jsonData.length; // Total courses in the JSON file
+      int addedCount = 0; // Successfully added courses
+      int skippedCount = 0; // Skipped courses (duplicates or invalid)
+
       for (var courseData in jsonData) {
         if (courseData is! Map<String, dynamic>) {
           print('Skipping invalid course data: $courseData');
+          skippedCount++;
           continue;
         }
         final courseMap = courseData;
@@ -52,6 +57,7 @@ class UploadScreenState extends State<UploadScreen> {
 
         if (courseName == null || existingNames.contains(courseName)) {
           print('Skipping duplicate or invalid course: $courseName');
+          skippedCount++;
           continue;
         }
 
@@ -76,16 +82,19 @@ class UploadScreenState extends State<UploadScreen> {
           existingNames.add(courseName); // Prevent duplicates within batch
         } catch (e) {
           print('Error processing course $courseName: $e');
+          skippedCount++;
         }
       }
 
       if (addedCount == 0) {
-        setState(() => _statusMessage = 'No new courses to upload');
+        setState(() => _statusMessage = 'No new courses to upload. '
+            'Processed: $totalCourses, Added: $addedCount, Skipped: $skippedCount');
         return;
       }
 
       await batch.commit();
-      setState(() => _statusMessage = 'Uploaded $addedCount courses successfully');
+      setState(() => _statusMessage = 'Upload complete. '
+          'Processed: $totalCourses, Added: $addedCount, Skipped: $skippedCount');
     } catch (e) {
       print('Upload Error: $e');
       setState(() => _statusMessage = 'Error uploading courses: $e');
@@ -111,6 +120,7 @@ class UploadScreenState extends State<UploadScreen> {
                 style: TextStyle(
                   color: _statusMessage!.contains('Error') ? Colors.red : Colors.green,
                 ),
+                textAlign: TextAlign.center,
               ),
           ],
         ),
